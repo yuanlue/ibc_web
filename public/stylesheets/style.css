@@ -1,8 +1,204 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
 
-a {
-  color: #00B7FF;
+.header{
+  line-height: 50px;
+  box-sizing: border-box;
+  padding: 0 18.75%;
+  background: white;
+  text-align: right;
+  font-size:16px;
+}
+.header ul li{
+  margin-left:50px;
+  display: inline-block;
+}
+.nav{
+  height:90px;
+  padding: 0 18.75%;
+  font-size:0;
+  line-height: 90px;
+  color:white;
+  background: #0e273a;
+}
+.nav img{
+  width:300px;
+}
+.nav ul{
+  font-size:0;
+  width:calc(100% - 300px );
+  float:right;
+}
+.nav ul li{
+  text-align: center;
+  font-size:18px;
+  width:20%;
+  display: inline-block;
+}
+.nav .nav_right{
+  text-align: right
+}
+.banner{
+  height:870px;
+  width:100%;
+  background:url('/images/banner.png') no-repeat;
+  background-size:cover;
+  background-position:center bottom;
+
+}
+.footer .foot_form{
+  font-size:0;
+  color:white;
+  padding:30px 18.75%;
+  background: #2b4152;
+}
+.footer h1{
+  font-weight: normal;
+}
+.footer .info_form input{
+  background: #f5f5f5;
+  outline:none;
+}
+.footer .info{
+  vertical-align: middle;
+  display: inline-block;
+  width:30%;
+
+}
+.footer .info_form{
+  width:70%;
+  font-size:0;
+  text-align: right;
+  display: inline-block;
+}
+.footer .foot_label{
+  font-size:18px;
+  margin-left:10px;
+  display: inline-block
+}
+.footer .foot_label input{
+  padding:15px;
+  border:none;
+}
+.footer .foot_label_submit{
+  margin-left:0;
+}
+.footer .foot_label #name,.footer .foot_label #email{
+  width:350px;
+}
+.footer .foot_label_submit input{
+  background: #f5372d;
+  padding:15px 40px;
+}
+.footer .contact{
+  font-size:0;
+  padding: 80px 18.75% 170px;
+  background: #0e273a;
+  color:white;
+
+}
+.footer .contact ul {
+  width:25%;
+  display: inline-block;
+}
+.footer .contact ul li:first-child{
+  margin:35px 0;
+  font-family: PingFangSC-Semibold, sans-serif;
+}
+.footer .contact ul li:last-child{
+  margin-top:20px;
+  font-size:18px;
+}
+.footer h2{
+  font-size:32px;
+  color:#f5372d;
+}
+.footer .contact ul li{
+  font-family:  PingFangSC-Ultralight, sans-serif;
+  line-height: 30px;
+  font-size:14px;
+}
+.awards{
+  font-size:0;
+  color:#4c6a81;
+  padding: 130px 18.75%;
+  background: url('/images/index_foot_banner.png') no-repeat;
+  background-size: cover;
+}
+.awards .awards_info h1{
+  margin-bottom:30px;
+}
+.awards .awards_info{
+  vertical-align: middle;
+  text-align:center;
+  padding:120px 80px 240px;;
+  box-sizing: border-box;
+  background: #f5f8fa;
+  width:40%;
+  font-size:20px;
+  display: inline-block;
+}
+.awards .award_img{
+  margin-top:20px;
+}
+.awards .awards_form{
+  font-size:16px;
+  width:60%;
+  vertical-align: middle;
+  background: #ffffff;
+  display: inline-block;
+  padding:70px 60px 80px;
+}
+.awards .awards_form h1{
+  font-size:32px;
+}
+.awards .form_item{
+  margin-top:25px;
+}
+.awards .form_item select:focus{
+  outline:none
+}
+.awards .form_item input{
+  line-height: 50px;
+  border:none;
+  padding:0;
+  margin:0;
+  background: #f5f8fa;
+  padding-left:20px;
+  width:100%;
+}
+.awards .form_item select{
+  line-height:50px;
+  border-radius: 0;
+  padding-left:20px;
+  background: url("/images/arrow.png") no-repeat 95% center #f5f8fa;
+  padding-right: 14px;
+  appearance:none;
+  border:none;
+  -moz-appearance:none;   
+  -webkit-appearance:none;
+  width:100%;
+}
+.awards .form_sel select{
+  width:30%;
+
+}
+.awards .form_sel input{
+  width:65%;
+  float:right;
+}
+.awards .form_item textarea{
+  resize:none;
+  width:100%;
+  background: #f5f8fa;
+  height:90px;
+  border:none;
+}
+.awards .opera{
+  text-align: center;
+  margin-top:50px;
+}
+.awards .opera input{
+  background: #113d5e;
+  padding:10px 50px;
+  border:none;
+  color:white;
 }

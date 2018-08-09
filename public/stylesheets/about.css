@@ -1,0 +1,34 @@
+.about .ab_contain h1{
+    font-size:36px;
+    margin-bottom: 40px;
+}
+.about .ab_contain{
+    padding: 130px 18.75%;
+    text-align: center;
+    color:#113d5e;
+    background: #f5f8fa;
+}
+.about .ab_contain ul {
+    margin-top:60px;
+    font-size: 0;
+}
+.about .ab_contain ul li{
+    vertical-align: top;    
+    background: #e9eef2;
+    overflow: hidden;
+    height:310px;
+    display: inline-block;
+    width:25%;
+    font-size:16px;
+}
+.about .ab_contain ul li img{
+    height:100%;
+    width:100%;
+}
+.about .ab_contain ul li>div{
+    text-align: left;
+    padding:40px 30px;
+}
+.about .ab_contain ul li>div h2{
+    margin-bottom:25px;
+}

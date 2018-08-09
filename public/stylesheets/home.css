@@ -1,0 +1,115 @@
+.home{
+    color:#4c6a81;
+}
+.home .home_best{
+    padding: 130px 18.75%;
+    text-align: center;
+    color:#113d5e;
+    background: #f5f8fa;
+}
+.home .home_do{
+    padding: 130px 18.75%;
+    color:white;
+    box-sizing: border-box;
+    background: url('/images/index_middle_banner.png') no-repeat;
+    background-size:cover;
+}
+.home .home_say,.home_partners{
+    padding: 130px 18.75%;
+    background: #f5f8fa;
+    text-align: center;
+}
+.home .home_best h1,.home .home_do h1,.home .home_say h1,.home_partners h1{
+    font-size:36px;
+    margin-bottom: 40px;
+}
+.home .home_best >p{
+    font-family:  PingFangSC-Medium, sans-serif;;
+    padding:0 90px;
+}
+.home .home_best ul {
+    margin-top:50px;
+    font-size: 0;
+}
+.home .home_best ul li h2{
+    font-family:  PingFangSC-Medium, sans-serif;
+    margin-bottom:20px;
+
+}
+
+.home .home_best ul li {
+    padding:20px;
+    width:25%;
+    display: inline-block;
+    font-size: 16px;
+}
+.home .home_do h1{
+    text-align: center;
+}
+.home .home_do ul{
+    font-size:0;
+}
+.home .home_do ul li{
+    border-bottom:5px solid #f5372d;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    background: #20242a;
+    font-size: 16px;
+    display: inline-block;
+    width:31%;
+    margin:1%;
+}
+.home .home_say ul li{
+    background: #fff;
+    padding:30px;
+    box-sizing: border-box;
+    font-size: 16px;
+    display: inline-block;
+    width:30%;
+    margin:1%;
+    text-align: left;
+}
+.home .home_do ul li span{
+    width:100%;
+    overflow: hidden;
+    display: block;
+    
+}
+.home .home_do ul li h2{
+    color:#f5372d;
+    margin:30px 0 20px;
+    font-size:24px;
+    padding-left:10px;
+}
+.home .home_do ul li img{
+    width:100%;
+}
+.home .home_do ul li p{
+    font-size:16px;
+    height:60px;
+    padding: 0 10px;
+    line-height: 30px;
+    overflow:hidden; 
+
+text-overflow:ellipsis;
+
+display:-webkit-box; 
+
+-webkit-box-orient:vertical;
+
+-webkit-line-clamp:2; 
+}
+.home .home_say .hone_say_item{
+    color:#113d5e;
+}
+.home .home_say .user img{
+    width:20px;
+}
+.home .home_partners ul li{
+    margin-top:40px;
+    width:24%;
+    display: inline-block;
+}
+.home .home_partners ul li img{
+    width:50%;
+}

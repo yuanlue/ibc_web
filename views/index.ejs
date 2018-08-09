@@ -3,8 +3,16 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<% include layout/head.ejs %>
+
 </head>
 <body>
-	this is ejs
+	<% include layout/header.ejs %>
+	<% include layout/nav.ejs %>
+	<% include layout/banner.ejs %>
+
+	<% var page ="page/"+pagename+".ejs"%>
+	<%- include(page,{title:title,})%>
+	<% include layout/footer.ejs %>
 </body>
 </html>
