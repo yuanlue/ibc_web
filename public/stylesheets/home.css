@@ -113,3 +113,11 @@ display:-webkit-box;
 .home .home_partners ul li img{
     width:50%;
 }
+.home .banner_video{
+    width:100%;
+    height:865px;
+}
+.home .banner_video .video-js{
+    width: 100%;
+    height:100%;
+}

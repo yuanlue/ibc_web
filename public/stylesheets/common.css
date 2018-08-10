@@ -1,14 +1,12 @@
 body {
     font-size:18px;
-    font-family: PingFangSC-Light, sans-serif;
+    font-family: PingFangSC-Regular, sans-serif;
   }
-  
-  a {
-    color: #fff;
+  *:focus{
+      outline:none;
   }
-  a:hover{
-      text-decoration: none;
-  }
+
+ 
   h1,h2{
       margin:0;
       padding:0;

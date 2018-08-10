@@ -9,10 +9,19 @@
 <body>
 	<% include layout/header.ejs %>
 	<% include layout/nav.ejs %>
+	<% if (pagename!='home') { %>
 	<% include layout/banner.ejs %>
-
+	<% } %>
 	<% var page ="page/"+pagename+".ejs"%>
 	<%- include(page,{title:title,})%>
 	<% include layout/footer.ejs %>
 </body>
+<script>
+	var myPlayer = videojs('my-video',{
+		isFullscreen:true,
+		autoplay: false,
+	});
+
+
+</script>
 </html>

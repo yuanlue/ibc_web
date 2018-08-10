@@ -11,24 +11,45 @@
 .about .ab_contain ul {
     margin-top:60px;
     font-size: 0;
+    font-size:0;
+    background: #e9eef2;
 }
 .about .ab_contain ul li{
     vertical-align: top;    
     background: #e9eef2;
     overflow: hidden;
-    height:310px;
     display: inline-block;
-    width:25%;
-    font-size:16px;
+    width:48%;
+    margin:10px;
 }
+
 .about .ab_contain ul li img{
-    height:100%;
-    width:100%;
+   width:50%;
+   height:100%;
+   vertical-align: top;
 }
 .about .ab_contain ul li>div{
+    display: inline-block;
+    width:50%;
+    font-size:16px;
+    box-sizing: border-box;
     text-align: left;
-    padding:40px 30px;
+    padding:20px 10px;
 }
 .about .ab_contain ul li>div h2{
     margin-bottom:25px;
+}
+.best ul li {
+    height:276px;
+    list-style: none;
+}
+
+.best .ab_contain ul{
+    background: transparent;
+}
+.best .ab_thum {
+    margin-top:60px;
+}
+.best .ab_thum img{
+    margin-left:20px;
 }

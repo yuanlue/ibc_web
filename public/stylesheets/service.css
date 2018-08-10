@@ -1,0 +1,179 @@
+.service ul{
+    margin-top:60px;
+    font-size:0;
+}
+.service .se_contain ul li{
+    border-top:5px solid #113d5e;
+    background: #ffffff;
+    text-align: left;
+    font-size:16px;
+    width:31%;
+    margin:1%;
+    display: inline-block;
+}
+.service .se_contain ul li img{
+    width:100%;
+}
+.service .se_contain ul li h2{
+    padding:0 20px;
+    line-height: 116px;
+    font-size:24px;
+    font-weight: bold
+}
+.service .se_contain ul li p{
+    padding:20px;
+}
+.service .se_contain ul li .opera{
+    text-align: center;
+}
+.service .se_contain ul li .opera a{
+    padding:10px 30px;
+    border:1px solid #f5372d;
+    color:#f5372d;
+}
+.service .awards_contact{
+    margin-top:40px;
+}
+.service .awards .awards_info h1{
+    margin-bottom:0;
+}
+.service .awards .awards_info h2{
+    margin-bottom:30px;
+}
+.service .awards .awards_form h1,.service .awards .awards_form p{
+    text-align: center
+}
+.service .awards .opera input{
+    background: #f5372d;
+}
+.group .h_contain .hader_h1{
+    text-align: center;
+}
+.group .h_contain{
+    text-align: left;
+}
+.group .section{
+    margin-top:25px;
+    margin-bottom:25px;
+}
+.group .section p::before{
+    content:"";
+    display: inline-block;
+
+}
+.group .thumb{
+    margin-top:50px;
+    display: table;
+    width:100%;
+    
+}
+.group .thumb>.thum_item{
+    display: table-cell;
+    vertical-align: top;
+}
+
+
+.group .thumb>.thum_item img{
+    width:100%;
+}
+.service .opera{
+    margin-top:60px;
+    text-align: right;
+}
+.service .opera a{
+    color:#f5372d;
+    padding:10px 30px;
+    border:1px solid #f5372d;
+}
+.hotel ul li {
+    background: white;
+    border-top:3px solid #113d5e;
+    margin-bottom:40px;
+    padding: 20px;
+    text-align: left;
+}
+.hotel ul li:hover{
+    background: #f5372d;
+    color:white;
+}
+.hotel ul li:hover a{
+    color:white;
+}
+.hotel ul li img{
+    width:20%;
+}
+.hotel ul li a >div h1{
+    font-size:28px;
+    margin-bottom:24px;
+}
+.hotel ul li a >div{
+    padding-left:20px;
+    vertical-align: top;
+    width:75%;
+    display: inline-block;
+    font-size:16px;
+}
+.mice .h_contain p{
+    text-align: left;
+}
+.mice .thumb img{
+    width:100%;
+}
+.mice .thumb_info>*{
+    width:50%;
+    display: inline-block;
+}
+.mice .thumb_info>img{
+    vertical-align: top;
+}
+.mice .thumb_info{
+    vertical-align: middle;
+    margin-top:30px;
+    font-size:0;
+    width:100%;
+}
+.mice .thumb_info .info h1{
+    font-weight: bold;
+    font-size:28px;
+    margin-bottom:30px;
+}
+.mice .thumb_info .info{
+    height:100%;
+    text-align: left;
+    box-sizing: border-box;
+    padding-left:0;
+}
+.mice .thumb_info .info{
+    padding:20px;
+}
+.mice .thumb_info p{
+    font-size:16px;
+}
+.mice .thumb_info .left{
+    padding-left:0
+}
+.mice .thumb_info h2{
+    font-size:22px;
+    margin:25px 0;
+}
+.mice ol{
+    padding:0;
+    list-style-type: disc;
+}
+.mice ol li:before{
+    content:"";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right:10px;
+}
+.mice ol li{
+    width:50%;
+    list-style-type: disc;
+
+    display: inline-block;
+    font-size:18px;
+}
