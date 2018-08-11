@@ -1,21 +1,45 @@
 const router = require('koa-router')()
+const auth = async (ctx,next)=>{
+  let deviceAgent = ctx.header['user-agent'].toLowerCase()
+  let agentID = deviceAgent.match(/(iphone|ipod|ipad|android)/);
+  ctx.pagename = 'index'
+  if(agentID){
+    ctx.pagename = 'index_mobile' 
+  }
+  await next()
+}
+router.get('/', auth,async (ctx, next) => {
+    await ctx.render(  ctx.pagename, {
+        title: 'Hello Koa 2!',
+        pagename:"home"
+    })
+    
 
-router.get('/', async (ctx, next) => {
-  await ctx.render('index', {
+})
+
+router.get('/contact',auth, async (ctx, next) => {
+  await ctx.render(ctx.pagename, {
     title: 'Hello Koa 2!',
-    pagename:"home"
+    pagename:"contact"
   })
 })
 
-router.get('/review', async (ctx, next) => {
-  await ctx.render('index', {
+router.get('/service',auth, async (ctx, next) => {
+  await ctx.render(ctx.pagename, {
+    title: 'Hello Koa 2!',
+    pagename:"service"
+  })
+})
+
+router.get('/review', auth,async (ctx, next) => {
+  await ctx.render(ctx.pagename, {
     title: 'Hello Koa 2!',
     pagename:"review"
   })
 })
 
-router.get('/about', async (ctx, next) => {
-  await ctx.render('index', {
+router.get('/about',auth, async (ctx, next) => {
+  await ctx.render(ctx.pagename, {
     title: 'Hello Koa 2!',
     pagename:"about"
   })
@@ -26,14 +50,14 @@ router.get('/service/hotel', async (ctx, next) => {
     pagename:"service/hotel"
   })
 })
-router.get('/about/modal', async (ctx, next) => {
-  await ctx.render('index', {
+router.get('/about/modal',auth, async (ctx, next) => {
+  await ctx.render(ctx.pagename, {
     title: 'Hello Koa 2!',
     pagename:"about/modal"
   })
 })
-router.get('/about/best', async (ctx, next) => {
-  await ctx.render('index', {
+router.get('/about/best',auth, async (ctx, next) => {
+  await ctx.render(ctx.pagename, {
     title: 'Hello Koa 2!',
     pagename:"about/best"
   })
@@ -50,8 +74,8 @@ router.get('/service/stays', async (ctx, next) => {
     pagename:"service/stay"
   })
 })
-router.get('/service/group', async (ctx, next) => {
-  await ctx.render('index', {
+router.get('/service/group', auth,async (ctx, next) => {
+  await ctx.render(ctx.pagename, {
     title: 'Hello Koa 2!',
     pagename:"service/group"
   })
@@ -66,12 +90,6 @@ router.get('/review', async (ctx, next) => {
   await ctx.render('index', {
     title: 'Hello Koa 2!',
     pagename:"review"
-  })
-})
-router.get('/service', async (ctx, next) => {
-  await ctx.render('index', {
-    title: 'Hello Koa 2!',
-    pagename:"service"
   })
 })
 

@@ -1,0 +1,105 @@
+.contact .footer_contact{
+    background: #f5f8fa;
+    color:#113d5e;
+}
+.contact .footer_contact h1{
+    font-size: .533333rem;
+    color:#113d5e;
+    margin-bottom:  1.2rem;
+}
+.contact .footer_contact ul li h2{
+    font-size: .453333rem;
+}
+.contact .footer_contact ul li h3{
+    font-size: .346667rem;
+    padding:0;
+    margin-top: .4rem;
+}
+.contact  .name input{
+    width: 6.266667rem;
+}
+.contact  .mail input{
+    width: 8.266667rem;
+}
+.contact  .country input{
+    width: 5.066667rem;
+}
+.contact .home_form,.contact .con_online{
+    background: #e9eef2;
+
+}
+
+.contact .con_online h1{
+    padding:0 .933333rem;
+    font-size: .346667rem;
+    font-weight: normal;
+    margin: .8rem 0 .4rem;
+}
+.contact .con_online>h1{
+    font-size: .533333rem;
+    margin-bottom: .666667rem;
+}
+.contact .check_item{
+    font-size: .346667rem;
+    margin-top: .4rem;
+}
+.contact .check_item label{
+    font-weight: normal;
+}
+.contact .check_item span{
+    position: relative;
+}
+.contact .check_item span input{
+    opacity: 0;
+    position: absolute;
+    top:0;
+    z-index:9;
+    width: .5rem;
+    height: .5rem;
+}
+.contact .check_item span{
+    width:.5rem;
+    vertical-align: bottom;
+    height: .5rem;
+    display: inline-block;
+}
+.contact .check_item i{
+    content:"";
+    display: inline-block;
+    position: absolute;
+    z-index:0;
+    background: white;
+    width: .4rem;
+    height: .4rem;
+    left:0;
+    top:0;
+}
+.contact .check_item input:checked + i{
+    content:"";
+    display: inline-block;
+    position: absolute;
+    z-index:0;
+    background: url('/images/checked.jpg') no-repeat;
+    background-size: cover;
+    width: .4rem;
+    height: .4rem;
+    left:0;
+    top:0;
+}
+.contact .con_online p{
+    margin-top: .533333rem;
+    padding:0 .933333rem;
+}.contact .answer input{
+    width: 100%;
+}
+.contact .last_check span{
+    vertical-align: top;
+}
+.contact .last_check label{
+    width: 90%;
+    display: inline-block;
+}
+.contact .opera input{
+    background: #f5372d;
+    color:white;
+}
