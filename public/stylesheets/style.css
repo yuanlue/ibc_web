@@ -75,15 +75,27 @@
 
 }
 .footer .info_form{
+  vertical-align: middle;
   width:70%;
   font-size:0;
   text-align: right;
   display: inline-block;
 }
+.footer .info_form form>*{
+  display: table-cell
+}
+.footer .info_form form{
+  display: table;
+}
+
 .footer .foot_label{
+  padding-left: 20px;
   font-size:18px;
   margin-left:10px;
   display: inline-block
+}
+.footer .foot_label:last-child{
+  padding-left:0;
 }
 .footer .foot_label input{
   padding:15px;
