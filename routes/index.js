@@ -44,8 +44,8 @@ router.get('/about',auth, async (ctx, next) => {
     pagename:"about"
   })
 })
-router.get('/service/hotel', async (ctx, next) => {
-  await ctx.render('index', {
+router.get('/service/hotel', auth,async (ctx, next) => {
+  await ctx.render(ctx.pagename, {
     title: 'Hello Koa 2!',
     pagename:"service/hotel"
   })
@@ -62,14 +62,14 @@ router.get('/about/best',auth, async (ctx, next) => {
     pagename:"about/best"
   })
 })
-router.get('/service/cruise', async (ctx, next) => {
-  await ctx.render('index', {
+router.get('/service/cruise',auth, async (ctx, next) => {
+  await ctx.render(ctx.pagename, {
     title: 'Hello Koa 2!',
     pagename:"service/cruise"
   })
 })
-router.get('/service/stays', async (ctx, next) => {
-  await ctx.render('index', {
+router.get('/service/stays',auth, async (ctx, next) => {
+  await ctx.render(ctx.pagename, {
     title: 'Hello Koa 2!',
     pagename:"service/stay"
   })
@@ -80,8 +80,9 @@ router.get('/service/group', auth,async (ctx, next) => {
     pagename:"service/group"
   })
 })
-router.get('/service/mice', async (ctx, next) => {
-  await ctx.render('index', {
+
+router.get('/service/mice',auth, async (ctx, next) => {
+  await ctx.render(ctx.pagename, {
     title: 'Hello Koa 2!',
     pagename:"service/mice"
   })

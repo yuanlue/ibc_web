@@ -106,3 +106,69 @@
 .group .home_form .opera{
     text-align: center;
 }
+.mice{
+    
+
+}
+.mice p{
+    text-align: center;
+}
+.mice .thum{
+    margin-top:  .555556rem;
+    padding: 1.041667rem 0;
+    color:white;
+    text-align: center;
+    background: url('/images/mmice_pic1.png') no-repeat;
+    width: 100%;
+    background-size:cover;
+    height: 8.333333rem;
+}
+.mice .thum h2{
+    font-weight: normal;
+    font-size: .5rem;
+}
+.mettings h3{
+    text-align: center;
+    font-size: .388889rem;
+    margin: .555556rem 0;
+}
+.mettings img{
+    width: calc(100% - .666667rem);
+    display: block;
+    margin:0 auto;
+}
+.mice .opera{
+    text-align: right
+}
+.mice h1{
+    text-align: center;
+    font-size: .5rem;
+    font-weight: normal;
+}
+.mice .opera a{
+    color:#f5372d;
+    border:1px solid #f5372d;
+    padding:.2rem .533333rem
+}
+.group ul{
+    margin: .555556rem 0;
+    background: #f5f8fa;
+    padding:0 .333333rem;
+}
+.group ul li img{
+    width: 100%;
+}
+.group ul li p{
+    padding:0;
+}
+.group ul li{
+    margin-top: .555556rem;
+    background: white;
+    border-top:3px solid #113d5e; 
+    padding: .555556rem;
+    text-align: center;
+}
+.hotel{
+    background: #f5f8fa;
+
+}

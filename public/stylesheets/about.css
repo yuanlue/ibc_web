@@ -12,7 +12,6 @@
     margin-top:60px;
     font-size: 0;
     font-size:0;
-    background: #e9eef2;
 }
 .about .ab_contain ul li{
     vertical-align: top;    
@@ -51,4 +50,28 @@
 }
 .best .ab_thum img{
     margin-left:20px;
+}
+@media screen and (max-width:1440px){
+    .about .ab_contain h1{
+        font-size:24px;
+        margin-bottom: 40px;
+    }
+    .about .ab_contain{
+        padding: 80px 18.75%;
+        text-align: center;
+        color:#113d5e;
+        background: #f5f8fa;
+    }
+    .about .ab_contain ul li>div{
+        font-size:12px;
+    }
+    .about .ab_contain ul li>div{
+       padding:20px 10px 0;
+    }
+    .best .ab_contain ul li{
+        margin:5px;
+    }
+    .best ul li{
+        height:240px;
+    }
 }

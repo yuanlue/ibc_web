@@ -32,6 +32,7 @@
     font-size: 0;
 }
 .home .home_best ul li h2{
+    margin-top: 20px;
     font-family:  PingFangSC-Medium, sans-serif;
     margin-bottom:20px;
 
@@ -121,4 +122,60 @@ display:-webkit-box;
 .home .banner_video .video-js{
     width: 100%;
     height:100%;
+}
+@media screen and (max-width:1440px){
+    .home .banner_video{
+        width:100%;
+        height:565px;
+    }
+    .home .home_do{
+        padding: 80px 18.75%;
+
+    }
+    .home .home_do ul li h2{
+        font-size:18px;
+        margin:20px 0 10px;
+    }
+    .home .home_do ul li p{
+        font-size:12px;
+    }
+    .home .home_do ul li {
+        padding-bottom:20px;
+    }
+    .home .home_do ul li span{
+        height: 200px;
+    }
+    .home .home_best ul li h2{
+        margin-top:0;
+        margin-bottom: 10px;
+    }
+    .home .home_best{
+        padding: 80px 18.75%;
+        text-align: center;
+        color:#113d5e;
+        background: #f5f8fa;
+    }
+    .home .home_best h1, .home .home_do h1, .home .home_say h1, .home_partners h1{
+        font-size:24px;
+    }
+    .home .home_best ul img{
+        width: 40px;
+        margin-bottom: 20px;
+    }
+    .home .home_best ul{
+        margin-top:20px;
+    }
+    .home .home_best ul li p{
+        font-size: 12px;
+    }
+    .home .home_say, .home_partners{
+        padding:80px 18.75%;
+    }
+    .home .home_say ul li{
+        padding:20px;
+        font-size: 12px;
+    }
+    .home .home_say ul li .user img{
+        width: 15px;
+    }
 }

@@ -159,7 +159,7 @@ body{
     padding:0 .933333rem;
 }
 .nav_list{
-    display: none;
+    display: none;  
     text-align: center;
 }
 .nav_list ul {
