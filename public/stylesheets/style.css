@@ -52,6 +52,17 @@
   background: #091d2c;
   border-bottom:3px solid #f5372d;
 }
+.nav .nav_right a:hover{
+  background: #f5372d
+}
+.nav .nav_right a{
+  display: inline-block;
+  width:auto;
+  margin-bottom:0;
+  line-height: 1.42857143;
+  padding:6px 12px;
+  background: #f5372d;
+}
 .nav .nav_right{
   text-align: right
 }
