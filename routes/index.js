@@ -56,6 +56,12 @@ router.get('/about/modal',auth, async (ctx, next) => {
     pagename:"about/modal"
   })
 })
+router.get('/about/history',auth, async (ctx, next) => {
+  await ctx.render(ctx.pagename, {
+    title: 'Hello Koa 2!',
+    pagename:"about/history"
+  })
+})
 router.get('/about/best',auth, async (ctx, next) => {
   await ctx.render(ctx.pagename, {
     title: 'Hello Koa 2!',

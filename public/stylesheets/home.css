@@ -86,7 +86,7 @@
 .home .home_do ul li img{
     width:100%;
 }
-.home .home_do ul li p{
+.home .home_do ul li>p{
     font-size:16px;
     height:60px;
     padding: 0 10px;
@@ -122,6 +122,45 @@ display:-webkit-box;
 .home .banner_video .video-js{
     width: 100%;
     height:100%;
+}
+.home .s_opera img{
+    cursor: pointer;
+    width:28px;
+}
+.home .s_opera{
+    text-align: right;
+    
+}
+.home .s_opera .right{
+    transform: rotate(180deg);  
+}
+.do_layer{
+    display: none;
+    background:rgba(137,15,9,0.9);
+
+}
+.home_do ul li{
+    cursor: pointer;
+    position: relative;
+}
+.home_do ul li:hover .do_layer h2{
+    color:white;
+    padding:0;
+}
+.home_do ul li:hover .do_layer a{
+    font-size:16px;
+    color:white;
+    text-decoration: underline;
+}
+.home_do ul li:hover .do_layer{
+    width:100%;
+    color:white;
+    padding:50px 30px;
+    box-sizing: border-box;
+    height:100%;
+    position: absolute;
+    display: block;
+
 }
 @media screen and (max-width:1440px){
     .home .banner_video{

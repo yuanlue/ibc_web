@@ -17,7 +17,15 @@
 	<% include layout/footer.ejs %>
 </body>
 <script>
-	
+	$(document).ready(function(){
+    $('.s_opera .left').click(function(){
+    mySwiper.slideNext();
+  })
+  $('.s_opera .right').click(function(){
+    mySwiper.slidePrev();
+  })
+})
+
 
 </script>
 </html>
