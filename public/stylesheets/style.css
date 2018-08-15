@@ -8,6 +8,7 @@
   font-size:16px;
 }
 .header ul{
+  padding-left:16%;
   width:100%;
   display: table;
 }
@@ -31,10 +32,11 @@
 }
 .nav ul{
   font-size:0;
-  width:calc(100% - 400px );
+  width:calc(100% - 380px );
   float:right;
 }
 .nav ul li{
+  line-height: 86px;
   text-align: center;
   font-size:18px;
   width:20%;
@@ -48,19 +50,21 @@
   height: 100%;;
 }
 .nav ul li a:hover{
-
   background: #091d2c;
-  border-bottom:3px solid #f5372d;
+  border-bottom:4px solid #f5372d;
 }
 .nav .nav_right a:hover{
-  background: #f5372d
+  border-bottom:none;
+  background: #f5372d;
 }
+
 .nav .nav_right a{
+  border-radius: 5px;
   display: inline-block;
   width:auto;
   margin-bottom:0;
-  line-height: 1.42857143;
-  padding:6px 12px;
+  line-height: 1;
+  padding:10px 30px;
   background: #f5372d;
 }
 .nav .nav_right{
@@ -166,6 +170,7 @@
   background-size: cover;
 }
 .awards .awards_info h1{
+  font-family: "geo";
   margin-bottom:30px;
 }
 .awards .awards_info{
@@ -181,6 +186,9 @@
 .awards .award_img{
   margin-top:20px;
 }
+.awards .award_img img:first-child{
+  margin-right:35px;
+}
 .awards .awards_form{
   font-size:16px;
   width:60%;
@@ -188,6 +196,10 @@
   background: #ffffff;
   display: inline-block;
   padding:70px 60px 80px;
+}
+.awards .awards_form form{
+  padding-left:20px;
+  padding-right: 40px;
 }
 .awards .awards_form h1{
   font-size:32px;
@@ -409,7 +421,7 @@
   width: 100px;
 }
 .awards .awards_info{
-
+  line-height: 30px;
   padding:80px 40px 170px;;
   box-sizing: border-box;
   background: #f5f8fa;
