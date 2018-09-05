@@ -23,9 +23,12 @@
     display: flex;
     text-align: left;
 }
+.ibc_info img{
+    margin-right:5px;
+}
 .ibc_info p:last-child{
-    display: flex;
-    justify-content: flex-end;
+    padding-left:40px;
+    box-sizing: border-box;
 }
 .about  .ab_contain .ibc_info p{
     color:#113d5e;
@@ -73,6 +76,9 @@
     font-size: 16px;
     color:#4c6a81;
     line-height:  26px;
+}
+.ab_ibc .ab_contain p{
+    color:#113d5e;
 }
 .about .ab_contain ul {
     margin-top:60px;

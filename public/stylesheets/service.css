@@ -30,7 +30,11 @@
 }
 .service .se_contain >p{
     font-size:16px;
+    color:#4c6a81;
     line-height: 25px;
+}
+.group .section img{
+    margin-right:5px;
 }
 .service .se_contain ul li img{
     width:100%;
@@ -103,6 +107,7 @@
     text-align: left;
 }
 .group .section{
+    color:#4c6a81;
     margin-top:25px;
     margin-bottom:25px;
 }
@@ -274,6 +279,8 @@
     font-size:16px;
 }
 .hotel .h_contain>p{
+    color:#4c6a81;
+
     line-height: 25px;
     text-align: left
 }
