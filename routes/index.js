@@ -8,95 +8,126 @@ const auth = async (ctx,next)=>{
   }
   await next()
 }
-router.get('/', auth,async (ctx, next) => {
-    await ctx.render(  ctx.pagename, {
+router.get('/',async (ctx, next) => {
+    await ctx.render('index', {
         title: 'Hello Koa 2!',
-        pagename:"home"
+        pagename:"home",
+        name:"home"
     })
     
 
 })
 
-router.get('/contact',auth, async (ctx, next) => {
-  await ctx.render(ctx.pagename, {
+router.get('/contact', async (ctx, next) => {
+  await ctx.render('index', {
     title: 'Hello Koa 2!',
-    pagename:"contact"
+    pagename:"contact",
+    name:"contact"
   })
 })
 
-router.get('/service',auth, async (ctx, next) => {
-  await ctx.render(ctx.pagename, {
+router.get('/service', async (ctx, next) => {
+  await ctx.render('index', {
     title: 'Hello Koa 2!',
-    pagename:"service"
+    pagename:"service",
+    name:"service"
   })
 })
 
-router.get('/review', auth,async (ctx, next) => {
-  await ctx.render(ctx.pagename, {
+router.get('/review',async (ctx, next) => {
+  await ctx.render('index', {
     title: 'Hello Koa 2!',
-    pagename:"review"
+    pagename:"review",
+    name:"review"
   })
 })
 
 router.get('/about', async (ctx, next) => {
-  await ctx.render(ctx.pagename, {
+  await ctx.render('index', {
     title: 'Hello Koa 2!',
-    pagename:"about"
+    pagename:"about",
+    name:"about"
   })
 })
 router.get('/service/hotel',async (ctx, next) => {
-  await ctx.render(ctx.pagename, {
+  await ctx.render('index', {
     title: 'Hello Koa 2!',
-    pagename:"service/hotel"
+    pagename:"service/hotel",
+    name:"service"
+
   })
 })
 router.get('/about/modal', async (ctx, next) => {
-  await ctx.render(ctx.pagename, {
+  await ctx.render('index', {
     title: 'Hello Koa 2!',
-    pagename:"about/modal"
+    pagename:"about/modal",
+    name:"about"
+
   })
 })
 router.get('/about/history', async (ctx, next) => {
-  await ctx.render(ctx.pagename, {
+  await ctx.render('index', {
     title: 'Hello Koa 2!',
-    pagename:"about/history"
+    pagename:"about/history",
+    name:"about"
+
   })
 })
 router.get('/about/best', async (ctx, next) => {
-  await ctx.render(ctx.pagename, {
+  await ctx.render('index', {
     title: 'Hello Koa 2!',
-    pagename:"about/best"
+    pagename:"about/best",
+    name:"about"
+
+  })
+})
+router.get('/about/ibc', async (ctx, next) => {
+  await ctx.render('index', {
+    title: 'Hello Koa 2!',
+    pagename:"about/ibc",
+    name:"about"
+
   })
 })
 router.get('/service/cruise', async (ctx, next) => {
-  await ctx.render(ctx.pagename, {
+  await ctx.render('index', {
     title: 'Hello Koa 2!',
-    pagename:"service/cruise"
+    pagename:"service/cruise",
+    name:"service"
+
   })
 })
 router.get('/service/stays', async (ctx, next) => {
-  await ctx.render(ctx.pagename, {
+  await ctx.render('index', {
     title: 'Hello Koa 2!',
-    pagename:"service/stay"
+    pagename:"service/stay",
+    name:"service"
+
   })
 })
 router.get('/service/group',async (ctx, next) => {
-  await ctx.render(ctx.pagename, {
+  await ctx.render('index', {
     title: 'Hello Koa 2!',
-    pagename:"service/group"
+    pagename:"service/group",
+    name:"service"
+
   })
 })
 
 router.get('/service/mice', async (ctx, next) => {
-  await ctx.render(ctx.pagename, {
+  await ctx.render('index', {
     title: 'Hello Koa 2!',
-    pagename:"service/mice"
+    pagename:"service/mice",
+    name:"service"
+
   })
 })
 router.get('/review', async (ctx, next) => {
   await ctx.render('index', {
     title: 'Hello Koa 2!',
-    pagename:"review"
+    pagename:"review",
+    name:"review"
+
   })
 })
 

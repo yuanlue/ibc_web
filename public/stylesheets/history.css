@@ -1,22 +1,30 @@
-.about .step ul li{
+.history .step ul li{
     color:#195b8d;
     margin-bottom:50px;
     width: 100%;
     padding:40px 25px;
     text-align: left;
-
+    height:auto;
 }
-.about .step ul{
+.history .step ul{
     position: relative;
     padding-left:80px;
 }
-.about .step ul li p{
+.history .ab_contain ul li{
+    position: initial;
+}
+.history .step ul li p{
     font-size: 16px;
 }
-.about .step ul li h2{
+.history .step ul li h2{
+    font-size:26px;
     margin-bottom: 25px;
 }
-.about .step ul:before{
+.history .ab_contain ul li>div{
+    width:50%;
+    display: inline-block;
+}
+.history .step ul:before{
     content:"";
     position: absolute;
     display: inline-block;
@@ -27,7 +35,7 @@
 
     background: #195b8d;
 }
-.about .step ul li i{
+.history .step ul li i{
     width:50px;
     position: relative;
     height:50px;
@@ -42,12 +50,12 @@
     background: #195b8d;
     border-radius: 50%;
 }
-.about .step ul li:before{
+.history .step ul li:before{
     content:"";
     width:0;
     position: absolute;
     height:0;
-    left:60px;
+    left:66px;
     border-width:15px 20px 15px 0;
     border-style:solid;
     border-color:transparent #e9eef2 transparent transparent;/*透明 灰 透明 透明 */
@@ -55,8 +63,11 @@
 .about .step ul li .thumb{
     vertical-align: top;
 }
+.about .step ul li .thumb-one {
+   text-align: right;
+}
 .about .step ul li .thumb-one img{
-    width:100%;
+    width:350px;
     display: inline-block;
     vertical-align: top;    
     
@@ -64,7 +75,11 @@
 .about .step ul li .thumb-two,.about .step ul li .thumb-one{
     vertical-align: top;
 }
+.about .step ul li .thumb-two{
+    text-align: right;
+}
 .about .step ul li .thumb-two img{
+    padding-left:10px;
     width:48%;
     display: inline-block;
     vertical-align: middle;    
@@ -78,9 +93,12 @@
     border:3px solid #c9d9e4;
 }
 .about .step ul .now{
+    background: transparent;
     margin-top:50px;
-    padding:0;
     margin-bottom:0;
+}
+.history .ab_contain ul li>div h2{
+    font-size:26px;
 }
 .history .ab_contain{
     padding-bottom:160px;

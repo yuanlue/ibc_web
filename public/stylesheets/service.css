@@ -2,32 +2,57 @@
     margin-top:60px;
     font-size:0;
 }
-.service .se_contain ul li{
+.service .se_contain ul li>div{
     border-top:5px solid #113d5e;
     background: #ffffff;
     text-align: left;
     font-size:16px;
-    width:31%;
-    margin:1%;
+ 
     display: inline-block;
+}
+.service .se_contain ul li{
+    margin-top: 15px;
+    margin-bottom:30px;
+}
+.service .se_contain ul li>div:hover{
+    background: #f5372d;
+    cursor: pointer;
+    color:white;
+}
+.service .se_contain ul li>div:hover *{
+    background: #f5372d;
+    border-top:none;
+    color:white;
+}
+.service .se_contain ul li>div:hover .opera a{
+    color:white;
+    border:1px solid #fff;
+}
+.service .se_contain >p{
+    font-size:16px;
+    line-height: 25px;
 }
 .service .se_contain ul li img{
     width:100%;
 }
 .service .se_contain ul li h2{
-    padding:0 20px;
-    line-height: 116px;
+    padding:40px 20px 55px; 
+    
     font-size:24px;
     font-weight: bold
 }
 .service .se_contain ul li p{
     padding:20px;
+    line-height: 30px;
+    color:#113d5e;
 }
 .service .se_contain ul li .opera{
     text-align: center;
 }
 .service .se_contain ul li .opera a{
     padding:10px 30px;
+    font-weight: bold;
+    font-size:18px;
     border:1px solid #f5372d;
     color:#f5372d;
 }
@@ -36,16 +61,41 @@
 }
 .service .awards .awards_info h1{
     margin-bottom:0;
+    margin-top:10px;
+    font-size:16px;
+}
+.service .awards .awards_info p{
+    font-size:16px;
 }
 .service .awards .awards_info h2{
-    margin-bottom:30px;
+    margin-bottom:50px;
+    margin-top:10px;
+
+    font-size:16px;
 }
 .service .awards .awards_form h1,.service .awards .awards_form p{
     text-align: center
 }
+.service .awards .opera{
+    text-align: center;
+}
 .service .awards .opera input{
     background: #f5372d;
+    padding:10px 50px;
+    font-size:20px;
+    color:white;
+    font-weight: bold;
 }
+.service .awards .form_item textarea{
+    padding:20px;
+}
+.service .awards .awards_info h1{
+    font-weight: initial;
+}
+.service .awards .awards_info{
+    padding:120px 80px 150px;;
+  
+  }
 .group .h_contain .hader_h1{
     text-align: center;
 }
@@ -67,6 +117,9 @@
     width:100%;
     
 }
+.stay .thumb{
+    margin-top:72px;
+}
 .group .thumb>.thum_item{
     display: table-cell;
     vertical-align: top;
@@ -77,19 +130,47 @@
     width:100%;
 }
 .service .opera{
-    margin-top:60px;
+    font-size:18px;
     text-align: right;
+    margin-bottom:0;
+    margin-top:60px;
+    margin-bottom:30px;
+}
+.service .opera a:hover{
+    color:white;
+    background: #f5372d;
+    text-decoration: none;
 }
 .service .opera a{
+    font-weight: bold;
     color:#f5372d;
     padding:10px 30px;
     border:1px solid #f5372d;
+}
+.service .opera input:hover{
+    color:white;
+    background: #f5372d;
+    text-decoration: none;
+}
+.service .opera input{
+    font-weight: bold;
+    color:#f5372d;
+    padding:10px 30px;
+    background: transparent;
+    border:1px solid #f5372d;
+}
+.mice .h_contain .thumb{
+    margin-top:40px;
+    margin-bottom:80px;
+}
+.mice .h_contain p{
+    margin-bottom:20px;
 }
 .hotel ul li {
     background: white;
     border-top:3px solid #113d5e;
     margin-bottom:40px;
-    padding: 20px;
+    padding: 25px;
     text-align: left;
 }
 .hotel ul li:hover{
@@ -100,7 +181,10 @@
     color:white;
 }
 .hotel ul li img{
-    width:20%;
+    width:320px;
+}
+.hotel ul li p{
+    line-height: 30px;
 }
 .hotel ul li a >div h1{
     font-size:28px;
@@ -109,11 +193,12 @@
 .hotel ul li a >div{
     padding-left:20px;
     vertical-align: top;
-    width:75%;
+    width:70%;
     display: inline-block;
     font-size:16px;
 }
 .mice .h_contain p{
+    font-size:16px;
     text-align: left;
 }
 .mice .thumb img{
@@ -127,15 +212,23 @@
     vertical-align: top;
 }
 .mice .thumb_info{
+    justify-content: space-between;
+    display: flex;
     vertical-align: middle;
-    margin-top:30px;
+    margin-top:0;
     font-size:0;
     width:100%;
 }
+.mice .thumb_info_one{
+    margin-top:80px;
+}
+.mice .thumb_info:nth-child(1){
+    margin-top: 0;
+}
 .mice .thumb_info .info h1{
-    font-weight: bold;
     font-size:28px;
     margin-bottom:30px;
+    color:#113d5e;
 }
 .mice .thumb_info .info{
     height:100%;
@@ -144,17 +237,20 @@
     padding-left:0;
 }
 .mice .thumb_info .info{
-    padding:20px;
+    padding:50px 20px;
 }
 .mice .thumb_info p{
     font-size:16px;
+    color:#4c6a81;
+    line-height: 28px;
 }
 .mice .thumb_info .left{
     padding-left:0
 }
 .mice .thumb_info h2{
+    font-weight: bold;
     font-size:22px;
-    margin:25px 0;
+    margin:25px 0 15px;
 }
 .mice ol{
     padding:0;
@@ -163,9 +259,9 @@
 .mice ol li:before{
     content:"";
     display: inline-block;
-    width: 10px;
-    height: 10px;
-    background-color: #000;
+    width: 5px;
+    height: 5px;
+    background-color: #4c6a81;
     border-radius: 50%;
     vertical-align: middle;
     margin-right:10px;
@@ -173,9 +269,27 @@
 .mice ol li{
     width:50%;
     list-style-type: disc;
-
+    line-height: 28px;
     display: inline-block;
+    font-size:16px;
+}
+.hotel .h_contain>p{
+    line-height: 25px;
+    text-align: left
+}
+.hotel .opera,.cruise .opera,.stay .opera{
+    text-align: right;
     font-size:18px;
+}
+.hotel a {
+    color:#113d5e;
+}
+.group p>a{
+    color:#f5372d;
+    text-decoration: underline;
+}
+.service .awards .awards_form h1{
+    font-family: initial;
 }
 @media screen and (max-width:1440px){
     .hotel ul li a >div h1{
@@ -220,4 +334,197 @@
     .mice ol li{
         font-size:  12px;
     }
+}
+@media screen and (max-width:768px){
+    .h_contain{
+        padding:1.466667rem .32rem;
+      }  
+      .service .se_contain ul li{
+          padding: 0;
+      }
+      .service ul{
+          padding: 0;
+      }
+      .service .se_contain ul li p{
+          padding:.466667rem .32rem .8rem;
+      }
+      .service .se_contain ul li .opera a{
+          padding: .266667rem .333333rem;
+          font-size:  .373333rem;
+      }
+      .service .awards .awards_info h2{
+          margin-bottom:  .8rem;
+      }
+      .service .awards .awards_info h1,.service .awards .awards_info h2{
+          font-size: .346667rem;
+      }
+      .hotel .h_contain>p{
+          text-align: center
+      }
+      .hotel ul li img{
+          width:100%;
+      }
+      .hotel ul li{
+          margin-bottom: .8rem;
+          padding: .533333rem;
+      }
+      .hotel ul li a >div{
+          padding-left:0;
+          text-align: center;
+          width:100%;
+      }
+      .hotel ul li a >div h1{
+          margin-top: .733333rem;
+          margin-bottom: .4rem;
+          color:#113d5e;
+      }
+      .hotel ul li a >div p{
+          font-size: .346667rem;
+          color:#113d5e;
+      }
+      .service .opera{
+          margin-top: .733333rem;
+          font-size: .293333rem;
+          
+      }
+      .service .opera a{
+          font-size: .293333rem;
+        padding: .2rem .266667rem;
+      }
+      .group .thumb{
+          margin-top: .8rem;
+      }
+      .service .se_contain>p{
+          text-align: center;
+      }
+      .mice .h_contain p{
+          text-align: center;
+      }
+      .mice .thumb img{
+          margin-top: .666667rem;
+      }
+      .mice .thumb_info>*{
+          width:100%;
+      }
+      .mice .thumb_info h1{
+          font-size: .426667rem;
+          margin-bottom: .666667rem;
+      }
+      .mice .thumb_info .info h1,.mice .thumb_info h2{
+          font-size: .373333rem;
+          margin-top: .666667rem;
+          text-align: center;
+      }
+      .mice .thumb_info .info>.title{
+          font-size: .533333rem;
+          font-family: "geo";
+          margin-bottom: .666667rem;
+      }
+      .mice .thumb_info{
+          margin-top: 0
+      }
+      .mice .thumb_info .info h2{
+          font-weight: bold;
+          font-family: "geo"
+      }
+      .mice ol li:before{
+          width:0;
+      }
+     
+      .mice ol li{
+          color:#4c6a81;
+          width:100%;
+          text-align: center;
+      }
+      .mice .thumb_info .info img{
+          width:100%;
+      }
+      .mice .thumb_info .info{
+          padding: 0;
+      }
+      .service .se_contain >p{
+          font-size: .346667rem;
+      }
+      .service ul{
+          margin-top: 1.133333rem;
+      }
+      .service .se_contain ul li{
+          margin-top:0;
+      }
+      .service .se_contain ul li h2{
+          font-size: .48rem;
+          font-family: "geo";
+          line-height:  2.2rem;
+      }
+      .service .se_contain ul li p{
+          font-size:  .346667rem;
+          line-height: .6rem;
+      }
+      .service .se_contain ul li p{
+          padding: .533333rem .266667rem 0;
+      }
+      .service .se_contain ul li .opera{
+            margin:0;
+          padding-top: 1.333333rem;
+          padding-bottom: 1.066667rem;
+      }
+      .service .awards .awards_info h2{
+        margin-top: .133333rem;
+      }
+      .service .awards .awards_info p{
+          font-size: .346667rem;
+      }
+      .service .awards_contact{
+          margin-top: 1.333333rem;
+      }
+      .service .awards_contact p{
+        line-height:  .533333rem;
+
+      }
+      .service .awards .opera input{
+        font-size :.426667rem;
+      }
+      .service .opera{
+          margin-bottom: 0;
+      }
+      .mice .h_contain .thumb{
+          margin-top:0;
+          margin-bottom: 1.066667rem;
+      }
+      .mice .h_contain p{
+          line-height:  .533333rem;
+          font-size:  .346667rem;
+      }
+      .mice .thumb_info .info{
+          margin-top: .533333rem;
+      }
+      .mice .thumb_info .info >img{
+          margin-bottom: .4rem;
+      }
+      .mice .opera{
+          text-align: right
+      }
+      .mice .opera input{
+          padding: .133333rem .266667rem;
+          color:#f5372d;
+          border:1px solid #f5372d;
+          background: transparent;
+      }
+      .service .awards .opera input{
+          font-weight: normal;
+      }
+      .service .opera a{
+          font-weight: normal;
+      }
+      .service .se_contain >p{
+          line-height: .533333rem
+      }
+      .service .awards .awards_info{
+        width:100%;
+        margin-bottom: .866667rem;
+        padding: 1.6rem .32rem 1.466667rem;
+      }
+       .awards .opera input{
+          background: #f5372d;
+      }
 }

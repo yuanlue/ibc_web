@@ -1,6 +1,9 @@
+.contact {
+    color:#113d5e;
+}
 .contact .con_contain h1{
     font-size:36px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 .contact .con_contain{
     padding: 130px 18.75%;
@@ -15,23 +18,30 @@
 }
 .contact .con_contain ul li{
     margin-bottom: 40px;
-    width:48%;
     display: inline-block;
 	font-size: 16px;
 }
 .contact .con_contain ul li h3{
-	font-size: 16px;
+    font-size: 16px;
+    margin-top:0;
+    margin-bottom:15px;
+}
+.contact .con_contain ul li p{
+    line-height: 25px;
 }
 .contact .con_contain ul li h2{
+    font-weight: bold;
+    margin-bottom:30px;
 	font-size: 26px;
 }
 .contact .con_online {
-    padding: 40px 18.75%;
+    padding: 80px 18.75%;
     background: #f5f8fa;
     padding-bottom:80px;
 
 }
 .contact .con_online h1{
+    color:#113d5e;
 	    font-size:36px;
     margin-bottom: 40px;
 }
@@ -51,7 +61,11 @@
 }
 .contact .form_item{
 	width:100%;
-	margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom:30px;
+}
+.contact .q_label input{
+    width:100%;
 }
 .contact .form_item select:focus{
   outline:none
@@ -60,13 +74,20 @@
   line-height:45px;
   border-radius: 0;
   padding-left:20px;
-  background: url("/images/arrow.png") no-repeat 95% center #fff;
+  background: url("../images/arrow.png") no-repeat 95% center #fff;
   padding-right: 14px;
   appearance:none;
   border:none;
   -moz-appearance:none;   
   -webkit-appearance:none;
   width:130px;
+}
+.contact .con_contain ul li h3{
+    font-weight: bold;
+    font-size:16px;
+}
+.contact .con_contain ul li  p{
+    color:#113d5e
 }
 .contact .form_item input{
   line-height: 45px;
@@ -75,30 +96,45 @@
   margin-right:20px;
   padding-left:20px;
 }
+.contact .email input:first-child{ 
+    width:467px;
+}
 .contact .question{
-	color:#113d5e;
-	margin:35px 0 20px;
+    color:#113d5e;
+	margin:25px 0 0
+}
+.contact .q1{
+    margin-bottom:22px;
 }
 .contact .check_list .check_label{
-	width:20%;
-	display: inline-block;;
+    font-size:16px;
+    color:#113d5e;
+	min-width:19%;
+    display: inline-block;
+    margin-bottom:20px;
+}
+.contact .check_list .check_label:last-child{
+    margin-left: 115px;
 }
 .contact  .label_q{
     margin-top: 30px;
 }
-.opera{
+.contact .opera{
     margin-top:75px;
 }
-.opera input{
+.contact .opera input{
     padding: 10px 50px;
     color:white;
     background: #f5372d;
+    border:none
 }
 .contact .c_contain{
     padding: 50px;
+    padding-bottom:135px;
     background: #e9eef2;;
 }
 .contact .check_label span{
+    margin-right:10px;
     width: 20px;
     height: 20px;
     vertical-align: middle;
@@ -121,7 +157,7 @@
     display: inline-block;
     position: absolute;
     z-index:0;
-    background: url('/images/checked.jpg') no-repeat;
+    background: url('../images/checked.jpg') no-repeat;
     background-size: cover;
     width: 20px;
     height: 20px;
@@ -141,6 +177,13 @@
     width:80%;
     display: inline-block;
 }
+
+.con_contain .container-fluid{
+    padding:0;
+}
+.contact .con_contain ul li{
+    padding:0;
+}
 @media screen and (max-width:1440px){
     .contact .con_contain h1{
         font-size:24px;
@@ -159,7 +202,6 @@
     }
     .contact .con_contain ul li{
         margin-bottom: 20px;
-        width:48%;
         display: inline-block;
         font-size: 12px;
     }
@@ -204,7 +246,7 @@
       line-height:30px;
       border-radius: 0;
       padding-left:20px;
-      background: url("/images/arrow.png") no-repeat 95% center #fff;
+      background: url("../images/arrow.png") no-repeat 95% center #fff;
       padding-right: 14px;
       appearance:none;
       border:none;
@@ -265,7 +307,7 @@
         display: inline-block;
         position: absolute;
         z-index:0;
-        background: url('/images/checked.jpg') no-repeat;
+        background: url('../images/checked.jpg') no-repeat;
         background-size: cover;
         width: 15px;
         height: 15px;
@@ -284,5 +326,105 @@
         vertical-align: top;
         width:80%;
         display: inline-block;
+    }
+}
+@media screen and (max-width:768px){
+    .contact .con_contain{
+        padding: 1.333333rem .32rem 0;
+        text-align: center
+    }
+    .contact .con_contain h1{
+        font-size: .533333rem;
+        margin-bottom: 1.2rem;
+    }
+    .contact .con_contain ul li h2{
+        font-size: .453333rem;
+    }
+    .contact .con_contain ul li h3{
+        font-size: .346667rem;
+        font-weight: bold;
+        margin: .4rem 0;
+    }
+    
+    .contact .con_contain ul li{
+        margin-bottom:  1.066667rem;
+    }
+    .contact .email input:first-child{
+        width: 8.266667rem;
+    }
+    .contact .c_contain{
+        padding:1.333333rem .32rem 1.733333rem;
+        text-align: left;
+    }
+    .contact .form_item input{
+        margin-bottom: .333333rem;
+        width: 100%;
+    }
+    .opera input{
+        padding:.266667rem 1.2rem
+    }
+    .contact .check_list .check_label{
+        margin-bottom: 0;
+    }
+    .opera input{
+        font-weight: initial;
+    }
+    .contact .con_online{
+        padding: 1.333333rem .32rem 1.333333rem;
+        background: #e9eef2;
+    }
+    .contact .form_item{
+        margin-top:0;
+    }
+    .contact .form_item select{
+        width: 3.866667rem;
+        margin-bottom: .333333rem;
+    }
+    .contact .form_item input{
+        width: 6.266667rem;
+        line-height:  .933333rem;
+    }
+    .contact .form_item input:nth-child(3){
+        width: 8.266667rem;
+    }
+    .contact .form_item:nth-child(3) input{
+        width: 5.133333rem;
+    }
+    .contact .con_online h1{
+        text-align: center;
+        font-size: .533333rem;
+        margin-bottom: 1.133333rem;
+    }
+    .contact .check_list .check_label{
+        width: 100%;
+        margin-top: .4rem;
+    }
+    .contact .question{
+        font-size: .346667rem;
+        margin:  .533333rem 0 0;
+    }
+    .contact .label_q{
+        margin-top: .333333rem;
+    }
+    .contact .q_label input{
+        width:100%;
+        padding-left: .266667rem;
+    }
+    .contact .label_info{
+        width:90%;
+    }
+    .opera{
+        margin-top: .8rem;
+        text-align: center;
+        font-size: .426667rem;
+    }
+    .opera button{
+        background: #f5372d;
+        padding: .2rem 1.066667rem;
+        font-size:.426667rem;
+        border:none;
+    }
+    .contact .check_list .check_label:last-child{
+        margin-left:0;
     }
 }

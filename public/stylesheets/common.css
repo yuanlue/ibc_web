@@ -1,7 +1,8 @@
 body {
-    font-size:18px;
+    font-size:16px;
     font-family: PingFangSC-Ultralight, sans-serif;
   }
+ 
   *:focus{
       outline:none;
   }
@@ -10,7 +11,10 @@ p{
 }
   @font-face{
     font-family: 'geo';
-    src : url('/font/GEOMETRI.ttf');
+    src : url('../font/GEOMETRI.ttf');
+}
+label{
+    font-weight: normal;
 }
 h1{
     font-family: "geo"
@@ -20,13 +24,22 @@ h1{
       padding:0;
   }
   header{
+    color:#113d5e;
+    cursor: pointer;
+      font-size:16px;
     padding: 0 18.75%;
     line-height:50px;
     background: #e9eef2;
   }
+  header i{
+      font-style: normal;
+      color:#f5372d;
+      font-size:16px;
+  }
   .hader_h1{
+      text-transform: uppercase;
     font-size:36px;
-    margin-bottom: 40px;
+    margin-bottom: 45px;
   }
   ul{
       padding:0;
@@ -49,7 +62,7 @@ h1{
     font-size:28px;
 }
 .bold{
-    font-family: PingFangSC-Semibold, sans-serif;
+    font-family: "geo";
 }
 .middle{
     font-family: PingFangSC-Medium, sans-serif;
@@ -88,4 +101,17 @@ h1{
     .f28{
       font-size:26px;
   }
+}
+@media screen and (max-width:768px){
+    .hader_h1{
+        font-size: .533333rem;
+        font-family: "geo";
+        margin-bottom: .666667rem;
+    }
+    p{
+        font-size: .346667rem;
+        line-height:  .533333rem;
+        font-family: PingFangSC-Regular, sans-serif;
+
+    }
 }

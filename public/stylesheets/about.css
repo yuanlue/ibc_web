@@ -1,27 +1,91 @@
 .about .ab_contain h1{
     font-size:36px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
 }
 .about .ab_contain{
     padding: 130px 18.75%;
     text-align: center;
     color:#113d5e;
+    background: #fff;
+}
+.ab_ibc .ab_contain{
+    background: #4cd2ff;
+    padding:130px 18.75% 0 ;
+}
+.about .ab_contain ul{
+    background: #e9eef2;
+}
+.ibc_info{
+    margin-top:45px;
+    background: rgba(255,255,255,0.15);
+    padding:20px 45px;
+    display: flex;
+    text-align: left;
+}
+.ibc_info p:last-child{
+    display: flex;
+    justify-content: flex-end;
+}
+.about  .ab_contain .ibc_info p{
+    color:#113d5e;
+    width:50%;
+    line-height: 35px;
+}
+.ourword .ab_contain{
     background: #f5f8fa;
+}
+.about .container-fluid{
+    padding: 0;
+}
+.history .ab_contain ul{
+    background: white;
+}
+.about .ab_contain ul li{
+    padding:0;
+    background: #e9eef2;
+    position: relative;
+    height:300px;
+}
+.best .ab_contain ul li{
+    background: transparent;
+}
+.ibc img{
+    width: 100%;
+}
+.best .ab_contain ul li{
+    padding: 15px;
+}
+.about .ab_contain ul li a:hover{
+    color:#f5372d;
+
+}
+.about .ab_contain ul li a{
+    display: inline-block;
+    margin-top:20px;
+    position: absolute;
+    bottom:50px;
+    text-decoration: underline;
+    font-style: italic;
+    font-size:14px;
+}
+.about .ab_contain p{
+    font-size: 16px;
+    color:#4c6a81;
+    line-height:  26px;
 }
 .about .ab_contain ul {
     margin-top:60px;
     font-size: 0;
     font-size:0;
 }
-.best .ab_contain ul li{
-    margin:5px;
+.best .ab_contain ul{
+    padding:0;
 }
-.about .ab_contain ul li{
+.about .ab_contain ul li>div{
     vertical-align: top;    
     background: #e9eef2;
     overflow: hidden;
-    display: inline-block;
-    width:48%;
 }
 
 .about .ab_contain ul li img{
@@ -30,17 +94,31 @@
    vertical-align: top;
 }
 .about .ab_contain ul li>div{
+    height:100%;
+}
+
+.about .ab_contain ul li .info{
     display: inline-block;
     width:50%;
     font-size:16px;
     box-sizing: border-box;
     text-align: left;
-    padding:20px 10px;
+    padding:50px 20px;
+}
+.best .ab_contain ul li .info{
+    padding:25px 20px;
+
 }
 .about .ab_contain ul li>div h2{
     margin-bottom:25px;
+    font-size:22px;
+    text-transform: uppercase;
+}
+.history .ab_contain ul li>div h2{
+    text-transform: initial
 }
 .best ul li {
+    padding:10px;
     height:276px;
     list-style: none;
 }
@@ -71,10 +149,95 @@
     .about .ab_contain ul li>div{
        padding:20px 10px 0;
     }
-    .best .ab_contain ul li{
-        margin:5px;
-    }
+    
     .best ul li{
         height:240px;
+    }
+}
+@media screen and (max-width:768px){
+    .about .ab_contain ul{
+        background: white;
+    }
+    .about .ab_contain ul li{
+        background: #e9eef2;
+    }
+    .about .ab_contain h1{
+        line-height:  .8rem;
+        font-size:  .533333rem;
+        font-family: "geo";
+        margin-bottom: .666667rem;
+    }
+    .about .ab_contain ul li>div h2{
+        font-family: "geo";
+        font-weight: normal;
+        margin-bottom: .426667rem;
+    }
+    .about .ab_contain ul li>div{
+        padding: .666667rem .266667rem 0;
+    }
+    .about .ab_contain ul li img{
+        height: 100%;
+    }
+    .about .ab_contain ul li p{
+        font-size: .346667rem;
+        line-height:  .533333rem;
+        margin-bottom:  .133333rem;
+    }
+    .about .ab_contain{
+        font-size: .346667rem;
+        padding:1.466667rem .32rem 1.266667rem;
+
+    }
+    .about .ab_contain ul li{
+        width:100%;
+        margin-bottom: .866667rem;
+    }
+    .best .ab_thum img{
+        width: 1.733333rem;
+    }
+    .best .ab_thum img{
+        margin-left:0;
+    }
+    .best .ab_thum img:first-child{
+        margin-right: 1.066667rem;
+    }
+    .best .ab_thum{
+        margin-top: .8rem
+    }
+    .best .ab_contain ul li>div{
+        padding:0
+    }
+    .best .ab_contain ul li img{
+        width:48%;
+    }
+    .best .ab_contain ul li{
+        margin-top: .666667rem;
+        padding:0;
+    }
+    .about .ab_contain p{
+        font-size:  .346667rem;
+    }
+    .about .ab_contain ul{
+        background: #f5f8fa;
+        margin-top: 1.333333rem;
+    }
+    .best .ab_contain ul{
+        margin-top:0;
+    }
+    .about .ab_contain ul li{
+        height: 6.4rem;
+    }
+    .about .ab_contain ul li .info{
+        padding: .6rem .266667rem .533333rem;
+    }
+    .about .ab_contain ul li a{
+        margin-top: 0;
+        font-size:  .32rem;
+        color:#113d5e;
+        position: initial;
+    }
+    .about .ab_contain ul li>div h2{
+        font-size: .426667rem;
+        line-height:  .6rem;
     }
 }
