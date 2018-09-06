@@ -78,6 +78,8 @@
   padding-right: 14px;
   appearance:none;
   border:none;
+  font-size: 16px;
+
   -moz-appearance:none;   
   -webkit-appearance:none;
   width:130px;
@@ -91,6 +93,7 @@
 }
 .contact .form_item input{
   line-height: 45px;
+  font-size:16px;
   border:none;
   padding:0;
   margin-right:20px;
@@ -100,22 +103,22 @@
     width:467px;
 }
 .contact .question{
+    font-size:16px;
     color:#113d5e;
 	margin:25px 0 0
 }
 .contact .q1{
+    font-size:16px;
     margin-bottom:22px;
 }
 .contact .check_list .check_label{
     font-size:16px;
     color:#113d5e;
-	min-width:19%;
+    margin-right:40px;
     display: inline-block;
     margin-bottom:20px;
 }
-.contact .check_list .check_label:last-child{
-    margin-left: 115px;
-}
+
 .contact  .label_q{
     margin-top: 30px;
 }
@@ -173,6 +176,7 @@
     height: 20px;
 }
 .contact .label_info{
+    font-size:16px;
     vertical-align: top;
     width:80%;
     display: inline-block;

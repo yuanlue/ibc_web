@@ -99,6 +99,8 @@
         display: inline-block;
         width:31%;
         margin:1%;
+        height:480px;
+        
         padding-left:0;
         padding-right: 0;
     }
