@@ -86,6 +86,9 @@
     
 }
 .about .step ul .now i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width:69px;
     line-height: 69px;
     height:69px;
@@ -134,6 +137,47 @@
     }
     .about .step ul .now:before{
         border:none
+    }
+    .history .ab_contain ul li>div{
+        width:100%;
+    }
+    .history .step ul li h2,.history .ab_contain ul li>div h2{
+        font-size: .426667rem;
+    }
+    .history .step ul li h2{
+        color:#195b8d;
+        margin-bottom:  .266667rem;
+    }
+    .history .step ul li{
+        padding: .8rem .266667rem .666667rem;
+    }
+    .history .ab_contain ul li>div{
+        padding:0;
+    }
+    .about .step ul li:before{
+        left: 1.6rem;
+    }
+    .about .step ul li p{
+        color:#4c6a81;
+        font-size: .346667rem;
+        line-height:  .533333rem;
+    }
+    .about .step ul li .thumb-two{
+        text-align: left;
+    }
+    .about .step ul li .thumb-two img{
+        padding-left:0;
+    }
+    .history .step ul{
+        padding-left: 1.333333rem;
+    }
+    .about .step ul li:before{
+        left: 1.1rem;
+    }
+    .about .step ul .now i{
+        width: 45px;
+        height:45px;
+        left:-2px;
     }
 }
 

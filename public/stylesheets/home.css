@@ -318,8 +318,10 @@
         background: #0e273a;
     }
     .home .home_do ul li{
+        height:auto;
+        font-size: .346667rem;
         width:auto;
-        background: #20242a;
+        background: rgba(32,36,42,0.5);
         margin-bottom: .666667rem;
         padding-bottom: .666667rem;
     }
@@ -377,7 +379,17 @@
     .home_best ul li{
         margin-bottom: .666667rem;
     }
+    .home .home_best ul li svg{
+        width: .653333rem;
+    }
+    .home .home_best ul li h2{
+        height:auto;
+        margin-top:0;
+        font-size: .426667rem;
+    }
     .home .home_best ul li p{
+        font-size: .346667rem;
+        margin-top:0;
         line-height: .533333rem;
     }
     .home_best ul li h2{
@@ -465,11 +477,13 @@
     }
     .home_pinter{
         margin-top: 1.2rem;
-        background: white;
+        background: #f5f8fa;
     }
     .home_pinter p{
         text-align: center;
         padding: 0 .32rem;
+        line-height:  .533333rem;
+        font-size: .346667rem;
     }
     .home .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
         background-image:url('/images/sw_arrow.png');
@@ -527,5 +541,7 @@
         width:100%;
         text-align: center;
     }
-   
+    .home .home_do ul li h2{
+        margin: .666667rem 0 .4rem;
+    }
 }

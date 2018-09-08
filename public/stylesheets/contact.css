@@ -114,11 +114,14 @@
 .contact .check_list .check_label{
     font-size:16px;
     color:#113d5e;
-    margin-right:40px;
     display: inline-block;
     margin-bottom:20px;
+    width:165px;
 }
 
+.contact .check_list .check_label:nth-child(6){
+    width:335px;
+}
 .contact  .label_q{
     margin-top: 30px;
 }
@@ -357,7 +360,7 @@
         width: 8.266667rem;
     }
     .contact .c_contain{
-        padding:1.333333rem .32rem 1.733333rem;
+        padding:0 .32rem 0;
         text-align: left;
     }
     .contact .form_item input{
@@ -383,10 +386,12 @@
     .contact .form_item select{
         width: 3.866667rem;
         margin-bottom: .333333rem;
+        line-height:  1rem;
     }
     .contact .form_item input{
+        font-size:  .346667rem;
         width: 6.266667rem;
-        line-height:  .933333rem;
+        line-height:  1rem;
     }
     .contact .form_item input:nth-child(3){
         width: 8.266667rem;
@@ -404,8 +409,9 @@
         margin-top: .4rem;
     }
     .contact .question{
+        font-weight: bold;
         font-size: .346667rem;
-        margin:  .533333rem 0 0;
+        margin: .533333rem 0  .2rem;
     }
     .contact .label_q{
         margin-top: .333333rem;
@@ -430,5 +436,11 @@
     }
     .contact .check_list .check_label:last-child{
         margin-left:0;
+    }
+    .contact .form_item{
+        margin-bottom: 0;
+    }
+    .contact .check_list .check_label{
+        font-size: .346667rem;
     }
 }

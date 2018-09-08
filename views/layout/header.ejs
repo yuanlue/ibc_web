@@ -32,22 +32,22 @@
         <% include nav.ejs %>
         <div class="nav_list">
             <ul>
-                <li >
+                <li class="<%- name=='home'?'active':'' %> ">
                     <a href="/">
                             Home
                     </a>
                     </li>
-                <li>
+                <li class="<%- name=='about'?'active':'' %> ">
                         <a href="/about">
                                 About Us
                         </a></li>
-                <li>
+                <li class="<%- name=='service'?'active':'' %> ">
                     <a href="/service">Our Services</a>
                 </li>
-                <li>
+                <li class="<%- name=='review'?'active':'' %> ">
                     <a href="/review">Review</a>
                 </li>
-                <li>
+                <li class="<%- name=='contact'?'active':'' %> ">
                     <a href="/contact">
                             Contact Us
                     </a>

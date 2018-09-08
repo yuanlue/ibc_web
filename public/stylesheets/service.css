@@ -25,7 +25,8 @@
     color:white;
 }
 .service .se_contain ul li>div:hover .opera a{
-    color:white;
+    color:#f5372d;
+    background: white;
     border:1px solid #fff;
 }
 .service .se_contain >p{
@@ -107,6 +108,8 @@
     text-align: left;
 }
 .group .section{
+    line-height:30px;
+    font-size:16px;
     color:#4c6a81;
     margin-top:25px;
     margin-bottom:25px;
@@ -158,7 +161,7 @@
     text-decoration: none;
 }
 .service .opera input{
-    font-weight: bold;
+    font-weight: bold ;
     color:#f5372d;
     padding:10px 30px;
     background: transparent;
@@ -206,8 +209,33 @@
     font-size:16px;
     text-align: left;
 }
-.mice .thumb img{
-    width:100%;
+.mice .thumb{
+    background: url('/images/mice.png');
+    background-size:cover;
+    height:475px;
+}
+.mice .thumb .pop{
+    text-align: left;
+    color:white;
+    padding:86px 20px 86px 56px;
+    box-sizing: border-box;
+    width:520px;
+    height:100%;
+    background: rgba(0,0,0,0.6);
+}
+.mice .thumb .pop h2{
+    font-size:24px;
+}
+
+.mice .thumb .pop p{
+    position: relative;
+    line-height: 30px;
+    margin-top:20px;
+    font-size:16px;
+    color:white;
+}
+.mice .thumb .pop p img{
+    margin-right:20px;
 }
 .mice .thumb_info>*{
     width:50%;
@@ -242,7 +270,7 @@
     padding-left:0;
 }
 .mice .thumb_info .info{
-    padding:50px 20px;
+    padding:50px 40px;
 }
 .mice .thumb_info p{
     font-size:16px;
@@ -364,6 +392,7 @@
       }
       .service .awards .awards_info h1,.service .awards .awards_info h2{
           font-size: .346667rem;
+          font-weight: bold;
       }
       .hotel .h_contain>p{
           text-align: center
@@ -374,6 +403,7 @@
       .hotel ul li{
           margin-bottom: .8rem;
           padding: .533333rem;
+          padding-bottom: 2.066667rem;
       }
       .hotel ul li a >div{
           padding-left:0;
@@ -414,6 +444,7 @@
           width:100%;
       }
       .mice .thumb_info h1{
+          text-transform: uppercase;
           font-size: .426667rem;
           margin-bottom: .666667rem;
       }
@@ -423,7 +454,7 @@
           text-align: center;
       }
       .mice .thumb_info .info>.title{
-          font-size: .533333rem;
+          font-size:  .426667rem;
           font-family: "geo";
           margin-bottom: .666667rem;
       }
@@ -432,7 +463,10 @@
       }
       .mice .thumb_info .info h2{
           font-weight: bold;
-          font-family: "geo"
+          font-size: .373333rem;
+      }
+      .mice ol li{
+          line-height:  .533333rem;
       }
       .mice ol li:before{
           width:0;
@@ -497,6 +531,9 @@
       .mice .h_contain .thumb{
           margin-top:0;
           margin-bottom: 1.066667rem;
+          background: url('/images/mice_mo.jpg');
+          background-size:cover;
+          height: 8rem;
       }
       .mice .h_contain p{
           line-height:  .533333rem;
@@ -533,5 +570,33 @@
       }
        .awards .opera input{
           background: #f5372d;
+      }
+      .service .awards_contact p{
+          margin-top:0;
+      }
+      .group .section{
+          line-height:  .533333rem;
+          font-size: .346667rem;
+      }
+      .group .section p {
+        margin-bottom: .4rem;
+      }
+      .group .section img{
+          width: .266667rem;
+      }
+      .group .opera{
+          margin-top: .8rem;
+      }
+      .mice .thumb_info{
+          display: block;
+      }
+      .hotel .h_contain>p,.hotel ul li a >div p{
+          font-size: .346667rem;
+          line-height:  .533333rem;
+      }
+      .hotel ul li a >div h1{
+          font-weight: bold;
+          font-family: initial;
+          font-size: .453333rem;
       }
 }

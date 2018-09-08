@@ -35,6 +35,9 @@
     width:50%;
     line-height: 35px;
 }
+.about  .ab_contain .ibc_info p:first-child{
+    width:70%;
+}
 .ourword .ab_contain{
     background: #f5f8fa;
 }
@@ -72,10 +75,19 @@
     font-style: italic;
     font-size:14px;
 }
+.about .ab_contain  .info p {
+    overflow: hidden;
+    height:78px;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
 .about .ab_contain p{
     font-size: 16px;
     color:#4c6a81;
     line-height:  26px;
+
 }
 .ab_ibc .ab_contain p{
     color:#113d5e;
@@ -221,6 +233,7 @@
         padding:0;
     }
     .about .ab_contain p{
+        line-height:  .533333rem;
         font-size:  .346667rem;
     }
     .about .ab_contain ul{
@@ -245,5 +258,39 @@
     .about .ab_contain ul li>div h2{
         font-size: .426667rem;
         line-height:  .6rem;
+    }
+    .about .ab_contain .info p{
+        height:auto;
+        overflow:initial;
+        font-size: .346667rem;
+        display: block;
+    }
+    .about .ab_contain p{
+        color:#113d5e;
+    }
+    .about .ab_contain .ibc_info p,.about .ab_contain .ibc_info p:first-child{
+        width:100%;
+        font-size: .346667rem;
+        line-height: .533333rem;
+        margin-bottom: .666667rem;
+    }
+  
+    .ibc_info{
+        margin-top: .8rem;
+        display: block;
+    }
+    .ibc_info p:last-child{
+        padding-left:0;
+    }
+    .ab_ibc .ab_contain{
+        padding-bottom:0;
+        background: #4cd2ff;
+    }
+    .ibc_info{
+        padding: .8rem .266667rem;
+    }
+    .ibc_info img{
+        margin-right: .32rem;
+        width: .266667rem;
     }
 }

@@ -122,4 +122,17 @@
     .review .list ul li>p{
         margin-top: .4rem;
     }
+    .review .list ul li>p{
+        font-size: .346667rem;
+    }
+    .review .opera a{
+        padding:.266667rem .533333rem;
+        font-size: .426667rem;
+    }
+    .review .re_user{
+        font-size: .32rem;
+    }
+    .review .list ul li>p{
+        line-height:  .533333rem;
+    }
 }
