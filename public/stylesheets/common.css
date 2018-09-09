@@ -75,9 +75,12 @@ h1{
     color:white;
     text-align: center;
 }
-@media screen and (max-width:1440px){
+@media screen and (min-width: 768px) and (max-width: 1600px) {
     .hader_h1{
         font-size: 24px;
+    }
+    header,header i{
+        font-size: 14px;
     }
     body {
         font-size:12px;

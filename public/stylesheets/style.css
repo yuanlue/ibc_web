@@ -351,6 +351,9 @@ input::-webkit-input-placeholder,select,textarea::-webkit-input-placeholder{
   text-align: right;
   font-size:12px;
 }
+.awards .awards_info,.awards .awards_form{
+  height:auto;
+}
 .header ul li{
   margin-left:30px;
   display: inline-block;
@@ -434,7 +437,6 @@ input::-webkit-input-placeholder,select,textarea::-webkit-input-placeholder{
 }
 
 .footer .foot_label{
-  padding-left: 20px;
   font-size:18px;
   margin-left:10px;
   display: inline-block
@@ -911,4 +913,14 @@ input::-webkit-input-placeholder,select,textarea::-webkit-input-placeholder{
 .awards .awards_info{
   height:auto;
 }
+}@media screen and (min-width: 768px) and (max-width: 1366px) {
+  .header ul li{
+    margin-left:20px;
+  }
+  .nav .nav_right a{
+    padding:10px 20px;
+  }
+  .nav ul li,.footer .contact ul li{
+    font-size:12px;
+  }
 }

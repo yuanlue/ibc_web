@@ -255,16 +255,30 @@
     }
 
 
-@media screen  and (max-width:1440px) and(min-width:768){
+    @media screen and (min-width: 768px) and (max-width: 1600px) {
     .home .banner_video{
         width:100%;
         height:565px;
+    }
+    .home .home_best h1, .home .home_do h1, .home .home_say h1, .home_partners h1{
+        margin-bottom:30px;
+    }
+    .home .home_best >p{
+        font-size:14px;
     }
     .home .home_do{
         padding: 80px 18.75%;
 
     }
- 
+    .home_do ul li .do_layer h2:before{
+        left:80px;
+    }
+    .home .home_do ul li{
+        height:350px;
+    }
+    .home_do ul li .do_layer{
+        padding:40px 35px;
+    }
     .home .home_do ul li h2{
         font-size:18px;
         margin:20px 0 10px;
@@ -543,5 +557,11 @@
     }
     .home .home_do ul li h2{
         margin: .666667rem 0 .4rem;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1366px) {
+    .home_partners>p,.home .home_best >p,.home .home_best ul li p,.home .home_say ul li p,.home_form .awards_info p{
+        font-size:12px;
+        line-height: 25px;
     }
 }

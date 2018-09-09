@@ -150,26 +150,37 @@
 .best .ab_thum img{
     margin-left:20px;
 }
-@media screen and (max-width:1440px){
+@media screen and (min-width: 768px) and (max-width: 1600px) {
     .about .ab_contain h1{
         font-size:24px;
         margin-bottom: 40px;
+    }
+    .about .ab_contain p{
+        font-size:14px;
+    }
+    .about .ab_contain ul li .info{
+        padding:20px;
+    }
+    .about .ab_contain ul li{
+        height:250px;
     }
     .about .ab_contain{
         padding: 80px 18.75%;
         text-align: center;
         color:#113d5e;
-        background: #f5f8fa;
     }
     .about .ab_contain ul li>div{
         font-size:12px;
     }
-    .about .ab_contain ul li>div{
-       padding:20px 10px 0;
+    .best .ab_contain ul li .info{
+        padding:20px;
+        width:49%;
     }
-    
     .best ul li{
         height:240px;
+    }
+    .about .ab_contain ul li a{
+        bottom:20px;
     }
 }
 @media screen and (max-width:768px){
@@ -292,5 +303,19 @@
     .ibc_info img{
         margin-right: .32rem;
         width: .266667rem;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1366px) {
+    .about .ab_contain p,.about .ab_contain .info p{
+        font-size:12px;
+        line-height: 25px;
+    }
+    .best .ab_contain ul li .info{
+        padding:10px;
+        width:48%;
+        box-sizing: border-box;
+    }
+    .best .ab_contain ul li .info{
+        padding:10px;
     }
 }
