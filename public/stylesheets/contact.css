@@ -379,6 +379,7 @@
     .contact .form_item input{
         margin-bottom: .333333rem;
         width: 100%;
+        font-weight: bold;
     }
     .opera input{
         padding:.266667rem 1.2rem
@@ -397,9 +398,17 @@
         margin-top:0;
     }
     .contact .form_item select{
+        font-size:.346667rem;
+        font-weight: bold;
         width: 3.866667rem;
         margin-bottom: .333333rem;
         line-height:  1rem;
+    }
+    
+    .contact .opera input{
+        padding:.266667rem 1.066667rem;
+        font-size:.426667rem;
+        font-weight: bold !important;
     }
     .contact .form_item input{
         font-size:  .346667rem;
@@ -434,7 +443,7 @@
         padding-left: .266667rem;
     }
     .contact .label_info{
-        width:90%;
+        width:80%;
     }
     .opera{
         margin-top: .8rem;
@@ -455,6 +464,11 @@
     }
     .contact .check_list .check_label{
         font-size: .346667rem;
+        font-weight: bold;
+
+    }
+    label{
+        font-weight: bold;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1366px) {

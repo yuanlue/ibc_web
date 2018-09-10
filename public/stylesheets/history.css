@@ -262,4 +262,7 @@
     .history .step ul{
         background: white;
     }
+    .history .step ul li i{
+            font-weight: bold;
+    }
 }

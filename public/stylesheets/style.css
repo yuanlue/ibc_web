@@ -626,6 +626,8 @@ input::-webkit-input-placeholder,select,textarea::-webkit-input-placeholder{
     padding:0 .32rem;
 }
 .header select{
+  color:white;
+  font-weight: bold;
     margin-left: .266667rem;
     border-radius: 0;
     padding-right: .666667rem;
@@ -709,17 +711,22 @@ input::-webkit-input-placeholder,select,textarea::-webkit-input-placeholder{
 
 }
 .footer_contact ul li{
+  color:white;
     margin-bottom: .866667rem;
 }
 .footer_contact ul li h2{
     font-size:  .346667rem;
 }
 .footer_contact ul li p{
+  color:white;
+
     line-height:  .533333rem;
     font-size:  .266667rem;
 }
 .footer_contact>h1{
-    font-size:  .4rem;
+    font-size:  .4rem !important;
+    text-transform: uppercase;
+    font-family: initial;
     color:#f5372d;
 }
 .footer_contact ul li p.f26{
@@ -727,6 +734,7 @@ input::-webkit-input-placeholder,select,textarea::-webkit-input-placeholder{
   font-weight: 100;
 
 }
+
 .footer_contact ul li .ftel{
   margin-top: .333333rem;
 }
@@ -734,6 +742,7 @@ input::-webkit-input-placeholder,select,textarea::-webkit-input-placeholder{
   margin-top: .333333rem;
 }
 .footer .info h1{
+  font-weight: bold;
   font-size:  .533333rem !important;
   font-family: initial
 }
@@ -754,6 +763,7 @@ input::-webkit-input-placeholder,select,textarea::-webkit-input-placeholder{
   margin-bottom: 1.6rem;
 }
 .footer .foot_label_submit input{
+  font-weight: bold;
   padding:.266667rem 1.066667rem;
   font-size: .426667rem;
 }
@@ -787,7 +797,7 @@ input::-webkit-input-placeholder,select,textarea::-webkit-input-placeholder{
     text-align: center;
 }
 .nav_list ul {
-    padding: .533333rem  .32rem 1.333333rem;
+    padding: .533333rem  0 1.333333rem;
 }
 .nav_list  a{
     color:white;
@@ -795,10 +805,21 @@ input::-webkit-input-placeholder,select,textarea::-webkit-input-placeholder{
 .nav_list ul li{
   margin-left:0;
   display: block;
+  position: relative;
     font-size: .426667rem;
 }
 .nav_list ul li.active{
-    background: #f5372d;
+    background: #091d2c;
+}
+.nav_list ul li:last-child{
+  padding:0 .266667rem;
+
+}
+.nav_list ul li:last-child a{
+  background: #f5372d;
+  width:100%;
+  display: block;
+  border-radius:  .133333rem;
 }
 .awards{
   padding: 1.6rem .32rem;
@@ -856,6 +877,7 @@ input::-webkit-input-placeholder,select,textarea::-webkit-input-placeholder{
   margin-top:0;
 }
 .footer_contact ul li h2{
+  text-transform: uppercase;
   font-size: .346667rem;
   font-weight: bold;
   margin-bottom:  .6rem;
@@ -907,6 +929,7 @@ input::-webkit-input-placeholder,select,textarea::-webkit-input-placeholder{
   margin-bottom: .666667rem;
 }
 .home .awards .opera input{
+  padding: .266667rem 1.2rem;
   background: #113d5e;
   text-transform: uppercase;
 }

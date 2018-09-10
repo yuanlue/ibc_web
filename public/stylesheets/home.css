@@ -260,6 +260,7 @@
         width:100%;
         height:565px;
     }
+
     .home .home_best h1, .home .home_do h1, .home .home_say h1, .home_partners h1{
         margin-bottom:30px;
     }
@@ -331,6 +332,14 @@
         font-size: .346667rem;
         background: #0e273a;
     }
+    .vjs-big-play-centered .vjs-big-play-button{
+        display:none !important;;
+    }
+    #my-video{
+        margin-top: 1.066667rem;
+        width:100% !important;
+        height:100% !important;;
+    }
     .home .home_do ul li{
         height:auto;
         font-size: .346667rem;
@@ -338,6 +347,13 @@
         background: rgba(32,36,42,0.5);
         margin-bottom: .666667rem;
         padding-bottom: .666667rem;
+    }
+    .home .home_do ul li a{
+        width:100%;
+        display: block;
+        text-align: right;
+        color:#f5372d;
+        text-decoration: underline;
     }
     .home .home_do ul li p{
         font-size: .346667rem;
@@ -447,7 +463,7 @@
         box-sizing: border-box;
     }
     .home .home_say ul li{
-        padding:.533333rem;
+        padding:.533333rem !important;
         border-left: 1.066667rem solid #f5f8fa;
         border-right: 1.066667rem solid #f5f8fa;
     
@@ -556,6 +572,7 @@
         text-align: center;
     }
     .home .home_do ul li h2{
+        font-size: .426667rem;
         margin: .666667rem 0 .4rem;
     }
 }

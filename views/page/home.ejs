@@ -8,7 +8,12 @@
         </video>
     </div>
     <div class="banner visible-xs">
-    
+            <video id="my-video" class="video-js vjs-big-play-centered" controls preload="auto" 
+            data-setup="{}" poster="/images/video_text.png">
+            <source src="/images/IBC.mp4" type="video/mp4">
+            <source src="http://vjs.zencdn.net/v/oceans.webm" type="video/webm">
+        <source src="http://vjs.zencdn.net/v/oceans.ogv" type="video/ogg">
+    </video>
 
     </div>
     <div class="home_best">
@@ -135,6 +140,8 @@
                 </span>
                 <h2>Group Series</h2>
                 <p>A group tour with Inbound China gives travelers the chance to see all the biggest and best...</p>
+                <a href="/service/group"><i>Find Out More></i></a>
+
             </li>
             <li class="col-lg-4">
                    <div class="do_layer hidden-xs">
@@ -147,6 +154,8 @@
                     </span>
                     <h2>Tailormade</h2>
                     <p>A group tour with Inbound China gives travelers the chance to see all the biggest and best...</p>
+                    <a href="/service/tail"><i>Find Out More></i></a>
+
             </li>
             <li class="col-lg-4">   <div class="do_layer hidden-xs">
                     <h2>Group Series</h2>
@@ -158,6 +167,8 @@
                     </span>
                     <h2>Mice</h2>
                     <p>Following with China’s economy booming, Beijing, Shanghai, Guangzhou and other big...</p>
+                    <a href="/service/mice"><i>Find Out More></i></a>
+
             </li>
             <li class="col-lg-4">   <div class="do_layer hidden-xs">
                     <h2>Short Stays</h2>
@@ -169,6 +180,8 @@
                     </span>
                     <h2>Cruise Extensions</h2>
                     <p>We currently serve some of the world's most prestigious cruise liners who sail to the...</p>
+                    <a href="/service/cruise"><i>Find Out More></i></a>
+
             </li>
             <li class="col-lg-4">   <div class="do_layer hidden-xs">
                     <h2>Group Series</h2>
@@ -180,6 +193,7 @@
                     </span>
                     <h2>Short Stays</h2>
                     <p>A group tour with Inbound China gives travelers the chance to see all the biggest and best...</p>
+                    <a href="/service/stays"><i>Find Out More></i></a>
             </li>
             <li class="col-lg-4"> 
                   <div class="do_layer hidden-xs">
@@ -192,6 +206,8 @@
                     </span>
                     <h2>Hotels & Cars<br>Flights & Trains & Cruises</h2>
                     <p>We have an extensive portfolio of ...</p>
+                    <a href="/service/hotel"><i>Find Out More></i></a>
+
             </li>
         
         </ul>
@@ -334,13 +350,16 @@
    
 </div>
 <script>
-      var mySwiper = new Swiper ('.swiper-container', {
+    window.onload=function(){
+        var mySwiper = new Swiper ('.swiper-container', {
     direction: 'horizontal',
     loop: true,
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
+    prevButton:'.swiper-button-prev',
+    nextButton:'.swiper-button-next',
+    
   })       
+  
+    }
+   
 
   </script>

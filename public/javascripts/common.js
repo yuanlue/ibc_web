@@ -7,7 +7,7 @@ $(document).ready(function(){
     direction: 'horizontal',
     loop: true,
     prevButton:'.swiper-button-prev',
-nextButton:'.swiper-button-next',
+    nextButton:'.swiper-button-next',
     
   })  
         

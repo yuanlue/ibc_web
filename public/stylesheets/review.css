@@ -18,7 +18,10 @@
     margin-left:20px;
 
 }
-
+.review .list ul li>p i {
+    color:#f5372d;
+    text-decoration: underline;
+}
 .review .list ul li a{
     font-style: italic;
     font-size:16px;
@@ -106,13 +109,17 @@
         display: block;
         margin-bottom: .4rem;
         font-size:  .426667rem;
-        font-family: "geo";
     }
     .review .list ul li .info .address{
-        margin:0 .266667rem;
+        margin:0 .2rem;
+        font-size: .293333rem;
         padding:0  .333333rem}
     .review .address, .review .time{
         padding: 0;
+        font-weight: bold;
+    }
+    .review .list ul li>p i {
+        color:#f5372d;
     }
     .review .re_user img{
         width: .266667rem;
@@ -135,7 +142,7 @@
         font-size: .346667rem;
     }
     .review .opera a{
-        padding:.266667rem .533333rem;
+        padding:.2rem    .6rem;
         font-size: .426667rem;
     }
     .review .re_user{
