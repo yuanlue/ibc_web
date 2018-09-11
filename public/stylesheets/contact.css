@@ -191,16 +191,17 @@
 .contact .con_contain ul li{
     padding:0;
 }
-@media screen and (min-width: 768px) and (max-width: 1600px) {
+@media screen and (min-width: 996px) and (max-width: 1600px) {
     .contact .con_contain h1{
         font-size:24px;
         margin-bottom: 20px;
     }
+    
     .contact .label_info,.contact .question{
         font-size:14px;
     }
     .contact .con_contain{
-        padding: 80px 18.75%;
+        padding: 80px 12%;
         text-align: left;
         color:#113d5e;
         padding-bottom:10px;
@@ -221,8 +222,11 @@
     .contact .con_contain ul li h2{
         font-size: 20px;
     }
+    .contact .check_list .check_label:nth-child(6){
+        width:auto;
+    }
     .contact .con_online {
-        padding: 20px 18.75%;
+        padding: 20px 12%;
         background: #f5f8fa;
         padding-bottom:80px;
     
@@ -348,10 +352,13 @@
         width:100%;
     }
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:996px){
     .contact .con_contain{
         padding: 1.333333rem .32rem 0;
         text-align: center
+    }
+    .contact .check_list .check_label:nth-child(6){
+        width:auto;
     }
     .contact .con_contain h1{
         font-size: .533333rem;
@@ -475,7 +482,5 @@
     .contact .email input:first-child{
         width: 430px;
     }
-    .contact .question,.contact .label_info,.contact .opera input,.contact .form_item input, .contact .form_item select,.contact .check_list .check_label{
-        font-size:12px;
-    }
+ 
 }

@@ -75,8 +75,11 @@ h1{
     color:white;
     text-align: center;
 }
-@media screen and (min-width: 768px) and (max-width: 1600px) {
-    .hader_h1{
+@media screen and (min-width: 996px) and (max-width: 1600px) {
+    header{
+        padding:0 12%;
+    }
+    /* .hader_h1{
         font-size: 24px;
     }
     header,header i{
@@ -92,9 +95,7 @@ h1{
     .f16{
         font-size:12px;
     }
-    .f18{
-        font-size:12px;
-    }
+   
     .f20{
         font-size: 18px;
     }
@@ -103,9 +104,12 @@ h1{
     }
     .f28{
       font-size:26px;
-  }
+  } */
+  /* .f18{
+    font-size:14px;
+} */
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:996px){
     .hader_h1{
         font-size: .533333rem;
         font-family: "geo";

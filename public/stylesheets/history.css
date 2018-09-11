@@ -109,13 +109,13 @@
 .about .step ul .now:before{
     border:none
 }
-@media screen and (max-width:1440px){
-    .about .step ul li p{
+@media screen and (min-width: 996px) and (max-width: 1600px) {
+    /* .about .step ul li p{
         font-size:12px;
     }
     .about .step ul li i{
         font-size:12px;
-    }
+    } */
     .about .step ul li i{
         width:45px;
         height:45px;
@@ -124,7 +124,13 @@
     .about .step ul:before{
         width:2px;
     }
-  
+    .about .step ul li .thumb-two img{
+        width:30%;
+    }
+    .about .step ul li .thumb-one{
+        text-align: left;
+        margin-top:10px;
+    }
     .about .step ul li:before{
         content:"";
         width:0;
@@ -181,13 +187,13 @@
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1600px) {
-    .about .step ul li p{
+@media screen and (min-width: 996px) and (max-width: 1600px) {
+    /* .about .step ul li p{
         font-size:12px;
     }
     .about .step ul li i{
         font-size:12px;
-    }
+    } */
     .about .step ul li i{
         width:45px;
         height:45px;
@@ -253,10 +259,10 @@
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1366px) {
-    .about .step ul li p{
+    /* .about .step ul li p{
         font-size:12px;
         line-height: 25px;
-    }
+    } */
 }
 @media screen and (max-width: 768px){
     .history .step ul{

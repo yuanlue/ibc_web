@@ -100,20 +100,20 @@
         width:31%;
         margin:1%;
         height:480px;
-        
+        vertical-align: top;
         padding-left:0;
         padding-right: 0;
     }
     .home .home_say ul li p{
         line-height: 30px;
     }
-    .home .home_say ul li:first-child{
+    /* .home .home_say ul li:first-child{
         padding-left:0
     }
 
     .home .home_say ul li:last-child{
         padding-right: 0;
-    }
+    } */
     .home .home_say ul li{
     
         padding:30px 15px;
@@ -124,7 +124,6 @@
     
     .home .home_do ul li span{
         width:100%;
-        height:330px;
         overflow: hidden;
         display: block;
         
@@ -255,39 +254,57 @@
     }
 
 
-    @media screen and (min-width: 768px) and (max-width: 1600px) {
+    @media screen and (min-width: 996px) and (max-width: 1600px) {
     .home .banner_video{
         width:100%;
         height:565px;
+    }
+   
+    .home .home_do ul li{
+        margin:0;
+
+    }
+    .home .home_partners ul li img{
+        max-width: 100%;
+    }
+    .home .home_do ul li a{
+        width:100%;
+        display: block;
+        text-align: right;
+        color:#f5372d;
+        text-decoration: underline;
     }
 
     .home .home_best h1, .home .home_do h1, .home .home_say h1, .home_partners h1{
         margin-bottom:30px;
     }
-    .home .home_best >p{
-        font-size:14px;
-    }
+
     .home .home_do{
-        padding: 80px 18.75%;
+        padding: 80px 12%;
 
     }
     .home_do ul li .do_layer h2:before{
         left:80px;
     }
+    
     .home .home_do ul li{
         height:350px;
     }
     .home_do ul li .do_layer{
-        padding:40px 35px;
+        padding:80px 20px;
     }
     .home .home_do ul li h2{
         font-size:18px;
         margin:20px 0 10px;
     }
-    .home .home_do ul li p{
+    /* .home .home_do ul li p{
         font-size:12px;
-    }
+    } */
     .home .home_do ul li {
+        height: 6.666667rem;
+        overflow: hidden;;
+        width:31%;
+        margin:1%;
         padding-bottom:20px;
     }
     .home .home_do ul li span{
@@ -298,7 +315,7 @@
         margin-bottom: 10px;
     }
     .home .home_best{
-        padding: 80px 18.75%;
+        padding: 80px 12%;
         text-align: center;
         color:#113d5e;
         background: #f5f8fa;
@@ -313,25 +330,28 @@
     .home .home_best ul{
         margin-top:20px;
     }
-    .home .home_best ul li p{
+    /* .home .home_best ul li p{
         font-size: 12px;
-    }
+    } */
     .home .home_say, .home_partners{
-        padding:80px 18.75%;
+        padding:80px 12%;
     }
-    .home .home_say ul li{
+    /* .home .home_say ul li{
         padding:20px;
         font-size: 12px;
-    }
+    } */
     .home .home_say ul li .user img{
         width: 15px;
     }
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:996px){
     .home{
         font-size: .346667rem;
         background: #0e273a;
     }
+    /* .home .home_partners ul li img{
+        width:auto;
+    } */
     .vjs-big-play-centered .vjs-big-play-button{
         display:none !important;;
     }
@@ -343,7 +363,7 @@
     .home .home_do ul li{
         height:auto;
         font-size: .346667rem;
-        width:auto;
+        width:100%;
         background: rgba(32,36,42,0.5);
         margin-bottom: .666667rem;
         padding-bottom: .666667rem;
@@ -353,6 +373,8 @@
         display: block;
         text-align: right;
         color:#f5372d;
+        font-weight: bold;
+        padding-right: .266667rem;
         text-decoration: underline;
     }
     .home .home_do ul li p{
@@ -574,11 +596,5 @@
     .home .home_do ul li h2{
         font-size: .426667rem;
         margin: .666667rem 0 .4rem;
-    }
-}
-@media screen and (min-width: 768px) and (max-width: 1366px) {
-    .home_partners>p,.home .home_best >p,.home .home_best ul li p,.home .home_say ul li p,.home_form .awards_info p{
-        font-size:12px;
-        line-height: 25px;
     }
 }

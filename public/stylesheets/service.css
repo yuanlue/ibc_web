@@ -338,7 +338,7 @@
 .service .awards .awards_form h1{
     font-family: initial;
 }
-@media screen and (min-width: 768px) and (max-width: 1600px) {
+@media screen and (min-width: 996px) and (max-width: 1600px) {
     .hotel ul li a >div h1{
         font-size:18px;
     }
@@ -356,7 +356,7 @@
         font-size:14px;
     }
     .h_contain{
-        padding:80px 18.75%;
+        padding:80px 12%;
     }
     .hotel ul li img{
         width:25%;
@@ -367,22 +367,21 @@
     .service .se_contain ul li h2{
         padding:0 10px;
         line-height:  70px;
-        font-size: 18px;
     }
     .awards_info p{
         margin-top:0
     }
     .service .awards .opera input{
-        font-size:14px;
+        /* font-size:14px; */
     }
     .service .awards .awards_info p,.service .se_contain >p{
-        font-size:14px;
+        /* font-size:14px; */
     }
     .service .se_contain ul li p,.service .se_contain ul li .opera a{
-        font-size:14px;
+        /* font-size:14px; */
     }
     .service .opera{
-        font-size:14px;
+        /* font-size:14px; */
         margin-top:20px;
     }
     .mice .thumb_info .info{
@@ -662,7 +661,7 @@
       }
 }
 @media screen and (min-width: 768px) and (max-width: 1366px) {
-    .service .opera,.group .section,.mice .h_contain p,.service .awards .awards_info p, .service .se_contain >p,.service .se_contain ul li .opera a,.service .se_contain ul li p,.service .awards .opera input{
+    /* .service .opera,.group .section,.mice .h_contain p,.service .awards .awards_info p, .service .se_contain >p,.service .se_contain ul li .opera a,.service .se_contain ul li p,.service .awards .opera input{
         font-size:12px;
     }
     .mice .h_contain p,.service .se_contain ul li p,.service .awards .awards_info p, .service .se_contain >p{
@@ -670,5 +669,5 @@
     }
     .service .awards .awards_form h1{
         font-size:24px;
-    }
+    } */
 }

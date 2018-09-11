@@ -341,32 +341,39 @@ input::-webkit-input-placeholder,select,textarea::-webkit-input-placeholder{
 .awards .form_one select,.awards .form_one input{
   width:375px;
 }
-@media screen and (max-width:1440px){
-  
+@media screen and (min-width: 996px) and (max-width: 1600px) {
+  .nav{
+    padding:0 12%;
+  }
+  .footer .contact ul li:last-child{
+    font-size:12px;
+  }
 .header{
   line-height: 35px;
   box-sizing: border-box;
-  padding: 0 18.75%;
+  padding: 0 12%;
   background: white;
   text-align: right;
-  font-size:12px;
+  /* font-size:12px; */
 }
+
 .awards .awards_info,.awards .awards_form{
   height:auto;
 }
 .header ul li{
-  margin-left:30px;
+  margin-left:10px;
   display: inline-block;
 }
 .nav{
-  padding: 0 18.75%;
+  padding: 0 12%;
   font-size:0;
   line-height: 70px;
   color:white;
   background: #0e273a;
 }
 .nav img{
-  width:140px;
+  width:15%;
+  margin-top: .266667rem;
 }
 .nav ul{
   font-size:0;
@@ -375,7 +382,6 @@ input::-webkit-input-placeholder,select,textarea::-webkit-input-placeholder{
 }
 .nav ul li{
   text-align: center;
-  font-size:14px;
   width:20%;
   cursor: pointer;
   display: inline-block;
@@ -405,7 +411,7 @@ input::-webkit-input-placeholder,select,textarea::-webkit-input-placeholder{
 .footer .foot_form{
   font-size:0;
   color:white;
-  padding:20px 18.75%;
+  padding:20px 12%;
   background: #2b4152;
 }
 .footer h1{
@@ -453,16 +459,16 @@ input::-webkit-input-placeholder,select,textarea::-webkit-input-placeholder{
 }
 .footer .foot_label #name,.footer .foot_label #email{
   width:200px;
-  font-size:12px;
+  /* font-size:12px; */
 }
 .footer .foot_label_submit input{
   background: #f5372d;
-  padding:10px;
-  font-size:12px;
+  padding:12px;
+  /* font-size:12px; */
 }
 .footer .contact{
   font-size:0;
-  padding: 80px 18.75% 100px;
+  padding: 80px 12% 100px;
   background: #0e273a;
   color:white;
 
@@ -491,7 +497,7 @@ input::-webkit-input-placeholder,select,textarea::-webkit-input-placeholder{
 .awards{
   font-size:0;
   color:#4c6a81;
-  padding: 80px 18.75%;
+  padding: 80px 12%;
   background: url('/images/index_foot_banner.png') no-repeat;
   background-size: cover;
 }
@@ -507,7 +513,7 @@ input::-webkit-input-placeholder,select,textarea::-webkit-input-placeholder{
   box-sizing: border-box;
   background: #f5f8fa;
   width:40%;
-  font-size:12px;
+  /* font-size:12px; */
   display: inline-block;
 }
 .awards div.award_img img{
@@ -520,7 +526,7 @@ input::-webkit-input-placeholder,select,textarea::-webkit-input-placeholder{
   margin-top:20px;
 }
 .awards .awards_form{
-  font-size:12px;
+  /* font-size:12px; */
   width:60%;
   vertical-align: middle;
   background: #ffffff;
@@ -593,7 +599,8 @@ input::-webkit-input-placeholder,select,textarea::-webkit-input-placeholder{
 .home .banner_video .vjs-big-play-centered .vjs-big-play-button{
   top:60%;
 }
-@media screen and (max-width:768px){
+
+@media screen and (max-width:1200px){
   body{
     max-width:100%;
     overflow-x: hidden;
@@ -917,7 +924,7 @@ input::-webkit-input-placeholder,select,textarea::-webkit-input-placeholder{
 .awards_form form>p{
   text-align: center;
 }
-.awards .form_item input,.awards .form_item select{
+.awards .form_item input,.awards .form_item select,.awards .form_item textarea{
   font-size: .346667rem;
   line-height:  1rem;
 }
@@ -936,14 +943,21 @@ input::-webkit-input-placeholder,select,textarea::-webkit-input-placeholder{
 .awards .awards_info{
   height:auto;
 }
-}@media screen and (min-width: 768px) and (max-width: 1366px) {
+}
+
+@media screen and (min-width: 996px) and (max-width: 1366px) {
   .header ul li{
-    margin-left:20px;
+    margin-left:10px;
   }
+  .header ul{
+    padding-left:0;
+  }
+  
   .nav .nav_right a{
-    padding:10px 20px;
+    padding:10px;
   }
-  .nav ul li,.footer .contact ul li{
+  /* .nav ul li,.footer .contact ul li{
     font-size:12px;
-  }
+  } */
+ 
 }
