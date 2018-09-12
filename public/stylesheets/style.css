@@ -341,7 +341,7 @@ input::-webkit-input-placeholder,select,textarea::-webkit-input-placeholder{
 .awards .form_one select,.awards .form_one input{
   width:375px;
 }
-@media screen and (min-width: 996px) and (max-width: 1600px) {
+@media screen and (min-width: 768px) and (max-width: 1600px) {
   .nav{
     padding:0 12%;
   }

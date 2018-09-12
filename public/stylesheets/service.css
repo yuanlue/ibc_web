@@ -338,22 +338,22 @@
 .service .awards .awards_form h1{
     font-family: initial;
 }
-@media screen and (min-width: 996px) and (max-width: 1600px) {
-    .hotel ul li a >div h1{
+@media screen and (min-width: 996px) and (max-width: 1900px) {
+    /* .hotel ul li a >div h1{
         font-size:18px;
     }
     .hotel .h_contain>p{
         font-size:14px;
-    }
+    } */
     .hotel ul li p{
         line-height: 25px;
     }
     .service .awards .awards_info{
         padding:80px 20px;
-        font-size:16px;
+        /* font-size:16px; */
     }
     .hotel ul li a >div p{
-        font-size:14px;
+        /* font-size:14px; */
     }
     .h_contain{
         padding:80px 12%;
@@ -370,6 +370,9 @@
     }
     .awards_info p{
         margin-top:0
+    }
+    .hotel ul li a >div{
+        vertical-align: middle;
     }
     .service .awards .opera input{
         /* font-size:14px; */
@@ -409,10 +412,13 @@
         font-size:14px;
     }
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:996px){
     .h_contain{
         padding:1.466667rem .32rem;
       }  
+      .mice .thumb .pop{
+          display: none
+      }
       .service .se_contain ul li{
           padding: 0;
       }
@@ -660,7 +666,13 @@
           font-size: .453333rem;
       }
 }
-@media screen and (min-width: 768px) and (max-width: 1366px) {
+@media screen and (min-width: 996px) and (max-width: 1100px) {
+    .mice .thumb_info{
+        display: block;
+    }
+    .mice .thumb_info>*{
+        width:100%;
+    }
     /* .service .opera,.group .section,.mice .h_contain p,.service .awards .awards_info p, .service .se_contain >p,.service .se_contain ul li .opera a,.service .se_contain ul li p,.service .awards .opera input{
         font-size:12px;
     }

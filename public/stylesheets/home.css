@@ -355,6 +355,7 @@
     .vjs-big-play-centered .vjs-big-play-button{
         display:none !important;;
     }
+  
     #my-video{
         margin-top: 1.066667rem;
         width:100% !important;
@@ -369,16 +370,16 @@
         padding-bottom: .666667rem;
     }
     .home .home_do ul li a{
-        width:100%;
-        display: block;
         text-align: right;
-        color:#f5372d;
+        color:#6095c6;
         font-weight: bold;
+        font-size:  .32rem;
         padding-right: .266667rem;
         text-decoration: underline;
     }
     .home .home_do ul li p{
         font-size: .346667rem;
+        height: auto;
     }
     .home .home_do>h1{
         margin-bottom: .666667rem;
@@ -537,10 +538,16 @@
         line-height:  .533333rem;
         font-size: .346667rem;
     }
+    .home .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+        margin-top: 0
+
+    }
     .home .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
         background-image:url('/images/sw_arrow.png');
         width: .466667rem;
         height: .8rem;
+        margin-top: 0;
+
         background-size: cover;
     }
     .home .swiper-button-prev, .swiper-container-rtl .swiper-button-next{

@@ -194,6 +194,13 @@
     .about .step ul li i{
         font-size:12px;
     } */
+    .about .step ul li .thumb-one{
+        text-align: left;
+       
+    }
+    .about .step ul li .thumb-one img{
+        width:49%;
+    }
     .about .step ul li i{
         width:45px;
         height:45px;
@@ -265,8 +272,15 @@
     } */
 }
 @media screen and (max-width: 768px){
+    .about .step ul li .thumb-one img{
+        width:49%;
+    }
     .history .step ul{
         background: white;
+    }
+    .about .step ul li .thumb-one{
+        text-align: left;
+        
     }
     .history .step ul li i{
             font-weight: bold;
