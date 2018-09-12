@@ -109,7 +109,7 @@
 .about .step ul .now:before{
     border:none
 }
-@media screen and (min-width: 996px) and (max-width: 1600px) {
+@media screen and (max-width: 996px)  {
     /* .about .step ul li p{
         font-size:12px;
     }
@@ -125,7 +125,7 @@
         width:2px;
     }
     .about .step ul li .thumb-two img{
-        width:30%;
+        width:49%;
     }
     .about .step ul li .thumb-one{
         text-align: left;
@@ -172,7 +172,7 @@
         text-align: left;
     }
     .about .step ul li .thumb-two img{
-        padding-left:0;
+        padding-left:5;
     }
     .history .step ul{
         padding-left: 1.333333rem;
