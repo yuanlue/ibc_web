@@ -74,7 +74,7 @@
         font-size: 16px;
     }
     .home .home_best ul li p{
-        margin-top:20px;
+        margin-top:10px;
         font-size:16px;
         color:#4c6a81;
         line-height: 30px;
@@ -191,6 +191,8 @@
     .home .s_opera img{
         cursor: pointer;
         margin-left:7px;
+        position: initial;
+
         width:28px;
     }
     .home .s_opera{
@@ -198,6 +200,7 @@
         
     }
     .home .s_opera .right{
+        position: initial;
         transform: rotate(180deg);  
     }
     .home .home_do ul li>div h2{

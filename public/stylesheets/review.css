@@ -113,10 +113,10 @@
         margin-bottom: .4rem;
         font-size:  .426667rem;
     }
-    .review .list ul li .info .address{
+    .review .list ul li .info .address,.review .address, .review .time{
         margin:0 .2rem;
         font-size: .293333rem;
-        padding:0  .333333rem}
+        padding:0  .2333333rem}
     .review .address, .review .time{
         padding: 0;
         font-weight: bold;
