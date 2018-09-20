@@ -1,4 +1,4 @@
-#ibc_web_pic
+#bc_web_pic
 
 startup:
 npm install
