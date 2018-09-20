@@ -1,5 +1,5 @@
 # ibc_web_pc
 
-startup:N
+startup:
 npm install
 npm run prd
