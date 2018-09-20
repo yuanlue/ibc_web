@@ -7,6 +7,7 @@
     height:auto;
 }
 .history .step ul{
+    background: inherit;
     position: relative;
     padding-left:80px;
 }
@@ -275,9 +276,7 @@
     .about .step ul li .thumb-one img{
         width:49%;
     }
-    .history .step ul{
-        background: white;
-    }
+    
     .about .step ul li .thumb-one{
         text-align: left;
         

@@ -621,7 +621,7 @@ input::-webkit-input-placeholder,select,textarea::-webkit-input-placeholder{
 .header{
     position: fixed;
     top:0;
-    z-index: 10;
+    z-index: 999;
     width:100%;
     text-align: right;
     padding:0;
@@ -801,6 +801,7 @@ input::-webkit-input-placeholder,select,textarea::-webkit-input-placeholder{
 }
 .nav_list{
     display: none;  
+    z-index:999;
     text-align: center;
 }
 .nav_list ul {

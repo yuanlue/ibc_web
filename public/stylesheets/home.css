@@ -363,6 +363,10 @@
         margin-top: 1.066667rem;
         width:100% !important;
         height:100% !important;;
+        position: relative;
+    }
+    #my-video video{
+        z-index:0;
     }
     .home .home_do ul li{
         height:auto;
