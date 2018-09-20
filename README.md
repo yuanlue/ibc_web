@@ -1,4 +1,4 @@
-# ibc_web_pc
+# ibc_web
 
 startup:
 npm install
