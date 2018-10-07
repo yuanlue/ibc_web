@@ -1,0 +1,685 @@
+.service ul{
+    margin-top:60px;
+    font-size:0;
+}
+.service .se_contain ul li>div{
+    border-top:5px solid #113d5e;
+    background: #ffffff;
+    text-align: left;
+    font-size:16px;
+ 
+    display: inline-block;
+}
+.service .se_contain ul li{
+    margin-top: 15px;
+    margin-bottom:30px;
+}
+.service .se_contain ul li>div:hover{
+    background: #f5372d;
+    cursor: pointer;
+    color:white;
+}
+.service .se_contain ul li>div:hover *{
+    background: #f5372d;
+    border-top:none;
+    color:white;
+}
+.service .se_contain ul li>div:hover .opera a{
+    color:#fff;
+    border:1px solid #fff;
+}
+.service .se_contain ul li>div .opera a:hover{
+    background: #fff;
+    border-top:none;
+    color:#f5372d;
+}
+.service .se_contain >p{
+    font-size:16px;
+    color:#4c6a81;
+    line-height: 25px;
+}
+.group .section img{
+    margin-right:5px;
+}
+.service .se_contain ul li img{
+    width:100%;
+}
+.service .se_contain ul li h2{
+    padding:0 20px;
+    height:105px;
+    display: flex;
+    align-items: center;
+    font-size:24px;
+    font-weight: bold
+}
+.service .se_contain ul li p{
+    padding:20px;
+    line-height: 30px;
+    color:#113d5e;
+}
+.service .se_contain ul li .opera{
+    text-align: center;
+}
+.service .se_contain ul li .opera a{
+    padding:10px 30px;
+    font-weight: bold;
+    color:white;
+    font-size:18px;
+    border:1px solid #f5372d;
+    color:#f5372d;
+}
+.service .awards_contact{
+    margin-top:40px;
+}
+.service .awards .awards_info h1{
+    margin-bottom:0;
+    margin-top:10px;
+    font-size:16px;
+}
+.service .awards .awards_info p{
+    font-size:16px;
+}
+.service .awards .awards_info h2{
+    margin-bottom:50px;
+    margin-top:10px;
+
+    font-size:16px;
+}
+.service .awards .awards_form h1,.service .awards .awards_form p{
+    text-align: center
+}
+.service .awards .opera{
+    text-align: center;
+}
+.service .awards .opera input{
+    background: #f5372d;
+    padding:10px 50px;
+    font-size:20px;
+    color:white;
+    font-weight: bold;
+}
+.service .awards .form_item textarea{
+    padding:20px;
+}
+.service .awards .awards_info h1{
+    font-weight: initial;
+}
+.service .awards .awards_info{
+    padding:120px 80px 150px;;
+  
+  }
+.group .h_contain .hader_h1{
+    text-align: center;
+}
+ .hotel .h_contain .hader_h1 i{
+    margin-left:50px;
+    display: inline-block;
+    width:50px;
+    height:1px;
+}
+.group .h_contain{
+    text-align: left;
+}
+.group .section{
+    line-height:30px;
+    font-size:16px;
+    color:#4c6a81;
+    margin-top:25px;
+    margin-bottom:25px;
+}
+.group .section p::before{
+    content:"";
+    display: inline-block;
+
+}
+.group .thumb{
+    margin-top:50px;
+    display: table;
+    width:100%;
+    
+}
+.stay .thumb{
+    margin-top:72px;
+}
+.group .thumb>.thum_item{
+    display: table-cell;
+    vertical-align: top;
+}
+
+
+.group .thumb>.thum_item img{
+    width:100%;
+}
+.service .opera{
+    font-size:18px;
+    text-align: right;
+    margin-bottom:0;
+    margin-top:60px;
+    margin-bottom:30px;
+}
+.service .opera a:hover{
+    color:white;
+    background: #f5372d;
+    text-decoration: none;
+}
+.service .opera a{
+    font-weight: bold;
+    color:#f5372d;
+    padding:10px 30px;
+    border:1px solid #f5372d;
+}
+.service .opera input:hover{
+    color:white;
+    background: #f5372d;
+    text-decoration: none;
+}
+.service .opera input{
+    font-weight: bold ;
+    color:#f5372d;
+    padding:10px 30px;
+    background: transparent;
+    border:1px solid #f5372d;
+}
+.mice .h_contain .thumb{
+    margin-top:40px;
+    margin-bottom:80px;
+}
+.mice .h_contain p{
+    margin-bottom:20px;
+}
+.hotel ul li {
+    background: white;
+    border-top:3px solid #113d5e;
+    margin-bottom:40px;
+    padding: 25px;
+    text-align: left;
+}
+.hotel ul li:hover{
+    background: #f5372d;
+    color:white;
+}
+.hotel ul li:hover a{
+    color:white;
+}
+.hotel ul li img{
+    width:320px;
+}
+.hotel ul li p{
+    line-height: 30px;
+}
+.hotel ul li a >div h1{
+    font-size:28px;
+    margin-bottom:24px;
+}
+.hotel ul li a >div{
+    padding-left:20px;
+    vertical-align: top;
+    width:70%;
+    display: inline-block;
+    font-size:16px;
+}
+.mice .h_contain p{
+    font-size:16px;
+    line-height:  30px;
+    text-align: left;
+}
+.mice .thumb{
+    background: url('/images/mice.png');
+    background-size:cover;
+    height:475px;
+}
+.mice .thumb .pop{
+    text-align: left;
+    color:white;
+    padding:86px 20px 86px 56px;
+    box-sizing: border-box;
+    width:520px;
+    height:100%;
+    background: rgba(0,0,0,0.6);
+}
+.mice .thumb .pop h2{
+    font-size:24px;
+}
+
+.mice .thumb .pop p{
+    position: relative;
+    line-height: 30px;
+    margin-top:20px;
+    font-size:16px;
+    color:white;
+}
+.mice .thumb .pop p img{
+    margin-right:20px;
+}
+.mice .thumb_info>*{
+    width:50%;
+    display: inline-block;
+}
+.mice .thumb_info>img{
+    vertical-align: top;
+}
+.mice .thumb_info{
+    justify-content: space-between;
+    display: flex;
+    vertical-align: middle;
+    margin-top:0;
+    font-size:0;
+    width:100%;
+}
+.mice .thumb_info_one{
+    margin-top:80px;
+}
+.mice .thumb_info:nth-child(1){
+    margin-top: 0;
+}
+.mice .thumb_info .info h1{
+    font-size:28px;
+    margin-bottom:30px;
+    color:#113d5e;
+}
+.mice .thumb_info .info{
+    height:100%;
+    text-align: left;
+    box-sizing: border-box;
+    padding-left:0;
+}
+.mice .thumb_info .info{
+    padding:50px 40px;
+}
+.mice .thumb_info p{
+    font-size:16px;
+    color:#4c6a81;
+    line-height: 28px;
+}
+.mice .thumb_info .left{
+    padding-left:0
+}
+.mice .thumb_info h2{
+    font-weight: bold;
+    font-size:22px;
+    margin:25px 0 15px;
+}
+.mice ol{
+    padding:0;
+    list-style-type: disc;
+}
+.mice ol li:before{
+    content:"";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: #4c6a81;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right:10px;
+}
+.mice ol li{
+    width:50%;
+    list-style-type: disc;
+    line-height: 28px;
+    display: inline-block;
+    font-size:16px;
+}
+.hotel .h_contain>p{
+    color:#4c6a81;
+    font-size:16px;
+    line-height: 30px;
+    text-align: left
+}
+.hotel .opera,.cruise .opera,.stay .opera{
+    text-align: right;
+    font-size:18px;
+}
+.hotel a {
+    color:#113d5e;
+}
+.group p>a{
+    color:#f5372d;
+    text-decoration: underline;
+}
+.service .awards .awards_form h1{
+    font-family: initial;
+}
+@media screen and (min-width: 996px) and (max-width: 1600px) {
+    /* .hotel ul li a >div h1{
+        font-size:18px;
+    }
+    .hotel .h_contain>p{
+        font-size:14px;
+    } */
+    .hotel ul li p{
+        line-height: 25px;
+    }
+    .service .awards .awards_info{
+        padding:80px 20px;
+        /* font-size:16px; */
+    }
+    .hotel ul li a >div p{
+        /* font-size:14px; */
+    }
+    .h_contain{
+        padding:80px 12%;
+    }
+    .hotel ul li img{
+        width:25%;
+    }
+    .service ul{
+        margin-top: 40px;
+    }
+   
+    .awards_info p{
+        margin-top:0
+    }
+    .hotel ul li a >div{
+        vertical-align: middle;
+    }
+    .service .awards .opera input{
+        /* font-size:14px; */
+    }
+    .service .awards .awards_info p,.service .se_contain >p{
+        /* font-size:14px; */
+    }
+    .service .se_contain ul li p,.service .se_contain ul li .opera a{
+        /* font-size:14px; */
+    }
+    .service .opera{
+        /* font-size:14px; */
+        margin-top:20px;
+    }
+    .mice .thumb_info .info{
+        padding:15px;
+    }
+    .mice .thumb_info .info h1{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .mice .thumb_info p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .mice .thumb_info h2{
+        margin:15px 0;
+    }
+    .mice .h_contain p{
+        color:#113d5e;
+        font-size:14px;
+    }
+    .mice ol li{
+        font-size:  12px;
+    }
+    .group .section{
+        font-size:14px;
+    }
+}
+@media screen and (max-width:996px){
+    .h_contain{
+        padding:1.466667rem .32rem;
+      }  
+      .mice .thumb .pop{
+          display: none
+      }
+      .service .se_contain ul li{
+          padding: 0;
+      }
+      .mice ol li{
+          font-size:  .346667rem;
+      }
+      .service ul{
+          padding: 0;
+      }
+      .service .se_contain ul li p{
+          padding:.466667rem .32rem .8rem;
+      }
+      .service .se_contain ul li .opera a{
+          padding: .266667rem .333333rem;
+          font-size:  .373333rem;
+      }
+      .service .awards .awards_info h2{
+          margin-bottom:  .8rem;
+      }
+      .service .awards .awards_info h1,.service .awards .awards_info h2{
+          font-size: .346667rem;
+          font-weight: bold;
+      }
+      .hotel .h_contain>p{
+          text-align: center
+      }
+      .service .se_contain ul li>div:hover *,.service .se_contain ul li>div:hover{
+        background: white;
+        color:inherit;
+    }
+    .service .se_contain ul li>div:hover .opera a{
+        color:#f5372d;
+        border:1px solid #f5372d;
+    }
+      .hotel ul li img{
+          width:100%;
+      }
+      .hotel ul li{
+          margin-bottom: .8rem;
+          padding: .533333rem;
+          padding-bottom: 2.066667rem;
+      }
+      .hotel ul li a >div{
+          padding-left:0;
+          text-align: center;
+          width:100%;
+      }
+      .hotel ul li a >div h1{
+          margin-top: .733333rem;
+          margin-bottom: .4rem;
+          color:#113d5e;
+      }
+      .hotel ul li a >div p{
+          font-size: .346667rem;
+          color:#113d5e;
+      }
+      .service .opera{
+          margin-top: .733333rem;
+          font-size: .293333rem;
+          
+      }
+      .service .opera a{
+          font-size: .293333rem;
+        padding: .2rem .266667rem;
+      }
+      .group .thumb{
+          margin-top: .8rem;
+      }
+      .service .se_contain>p{
+          text-align: center;
+      }
+      .mice .h_contain p{
+          text-align: center;
+      }
+      .mice .thumb img{
+          margin-top: .666667rem;
+      }
+      .mice .thumb_info>*{
+          width:100%;
+      }
+      .mice .thumb_info h1{
+          text-transform: uppercase;
+          font-size: .426667rem;
+          margin-bottom: .666667rem;
+      }
+      .mice .thumb_info .info h1,.mice .thumb_info h2{
+          font-size: .373333rem;
+          margin-top: .666667rem;
+          text-align: center;
+      }
+      .mice .thumb_info .info>.title{
+          font-size:  .426667rem;
+          font-family: "geo";
+          margin-bottom: .666667rem;
+      }
+      .mice .thumb_info{
+          margin-top: 0
+      }
+      .mice .thumb_info .info h2{
+          font-weight: bold;
+          font-size: .373333rem;
+      }
+      .mice ol li{
+          line-height:  .533333rem;
+      }
+      .mice ol li:before{
+          width:0;
+      }
+     
+      .mice ol li{
+          color:#4c6a81;
+          width:100%;
+          text-align: center;
+      }
+      .mice .thumb_info .info img{
+          width:100%;
+      }
+      .mice .thumb_info .info{
+          padding: 0;
+      }
+      .service .se_contain >p{
+          font-size: .346667rem;
+      }
+      .service ul{
+          margin-top: 1.133333rem;
+      }
+      .service .se_contain ul li{
+          margin-top:0;
+      }
+      .service .se_contain ul li h2{
+          font-size: .48rem;
+          padding: .533333rem 0  .533333rem .266667rem;
+          font-family: "geo";
+          height:auto;
+      }
+      .service .se_contain ul li p{
+          font-size:  .346667rem;
+          line-height: .6rem;
+      }
+      .service .se_contain ul li p{
+          padding: .533333rem .266667rem 0;
+      }
+      .service .se_contain ul li .opera{
+            margin:0;
+          padding-top: 1.333333rem;
+          padding-bottom: 1.066667rem;
+      }
+      .service .awards .awards_info h2{
+        margin-top: .133333rem;
+      }
+      .service .awards .awards_info p{
+          font-size: .346667rem;
+      }
+      .service .awards .awards_contact p {
+        color:#113d5e;
+
+      }
+      .service .awards_contact{
+          color:#113d5e;
+          margin-top: 1.333333rem;
+      }
+      .service .awards_contact p{
+        line-height:  .533333rem;
+
+      }
+      .service .awards .opera input{
+        font-size :.426667rem;
+      }
+      .service .opera{
+          margin-bottom: 0;
+      }
+      .mice .h_contain .thumb{
+        margin-top: .266667rem;
+
+          margin-bottom: 1.066667rem;
+          background: url('/images/mice_mo.jpg');
+          background-size:cover;
+          height: 8rem;
+      }
+      .mice .h_contain p{
+          line-height:  .533333rem;
+          font-size:  .346667rem;
+      }
+     
+      .mice .h_contain p{
+          margin-bottom:0;
+      }
+      .mice .thumb_info .info{
+          margin-top: .666667rem
+      }
+      .mice .thumb_info .info >img{
+          margin-bottom: .4rem;
+      }
+      .mice .opera{
+          text-align: right
+      }
+      .mice .opera input{
+          padding: .133333rem .266667rem;
+          color:#f5372d;
+          border:1px solid #f5372d;
+          background: transparent;
+      }
+      .service .awards .opera input{
+          font-weight: normal;
+      }
+      .service .opera a{
+          font-weight:bold;
+      }
+      .service .se_contain >p{
+          line-height: .533333rem
+      }
+      .service .awards .awards_info{
+        width:100%;
+        margin-bottom: .866667rem;
+        padding: 1.6rem .32rem 1.466667rem;
+      }
+       .awards .opera input{
+          background: #f5372d;
+      }
+      .service .awards_contact p{
+          margin-top:0;
+      }
+      .group .section{
+          line-height:  .533333rem;
+          font-size: .346667rem;
+      }
+      .group .section p {
+        margin-bottom: .4rem;
+      }
+      .group .section img{
+          width: .266667rem;
+      }
+      .group .opera{
+          margin-top: .8rem;
+      }
+      .mice .thumb_info{
+          display: block;
+      }
+      .hotel .h_contain>p,.hotel ul li a >div p{
+          font-size: .346667rem;
+          line-height:  .533333rem;
+      }
+      .hotel ul li a >div h1{
+          font-weight: bold;
+          font-family: initial;
+          font-size: .453333rem;
+      }
+}
+@media screen and (min-width: 996px) and (max-width: 1100px) {
+    .mice .thumb_info{
+        display: block;
+    }
+    .mice .thumb_info>*{
+        width:100%;
+    }
+    /* .service .opera,.group .section,.mice .h_contain p,.service .awards .awards_info p, .service .se_contain >p,.service .se_contain ul li .opera a,.service .se_contain ul li p,.service .awards .opera input{
+        font-size:12px;
+    }
+    .mice .h_contain p,.service .se_contain ul li p,.service .awards .awards_info p, .service .se_contain >p{
+        line-height: 25px;
+    }
+    .service .awards .awards_form h1{
+        font-size:24px;
+    } */
+}

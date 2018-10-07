@@ -1,0 +1,486 @@
+.contact {
+    color:#113d5e;
+}
+.contact .con_contain h1{
+    font-size:36px;
+    margin-bottom: 60px;
+}
+.contact .con_contain{
+    padding: 130px 18.75%;
+    text-align: left;
+    color:#113d5e;
+    padding-bottom:10px;
+    background: #f5f8fa;
+}
+.contact .c_contain ul li{
+	width: 48%;
+	display: inline-block;
+}
+.contact .con_contain ul li{
+    margin-bottom: 40px;
+    display: inline-block;
+	font-size: 16px;
+}
+.contact .con_contain ul li h3{
+    font-size: 16px;
+    margin-top:0;
+    margin-bottom:15px;
+}
+.contact .con_contain ul li p{
+    line-height: 25px;
+}
+.contact .con_contain ul li h2{
+    font-weight: bold;
+    margin-bottom:30px;
+	font-size: 26px;
+}
+.contact .con_online {
+    padding: 80px 18.75%;
+    background: #f5f8fa;
+    padding-bottom:80px;
+
+}
+.contact .con_online h1{
+    color:#113d5e;
+	    font-size:36px;
+    margin-bottom: 40px;
+}
+.contact .con_online .input_label{
+	margin-top: 25px;
+}
+.contact .con_online .input_label input{
+	line-height:  50px;
+}
+.contact .form_item select{
+	margin-right: 20px;
+	width:130px;
+}
+.contact .form_item input{
+	margin-right:20px;
+	width: 310px;
+}
+.contact .form_item{
+	width:100%;
+    margin-top: 10px;
+    margin-bottom:30px;
+}
+.contact .q_label input{
+    width:100%;
+}
+.contact .form_item select:focus{
+  outline:none
+}
+.contact .form_item select{
+  line-height:45px;
+  border-radius: 0;
+  padding-left:20px;
+  background: url("../images/arrow.png") no-repeat 95% center #fff;
+  padding-right: 14px;
+  appearance:none;
+  border:none;
+  font-size: 16px;
+
+  -moz-appearance:none;   
+  -webkit-appearance:none;
+  width:130px;
+}
+.contact .con_contain ul li h3{
+    font-weight: bold;
+    font-size:16px;
+}
+.contact .con_contain ul li  p{
+    color:#113d5e
+}
+.contact .form_item input{
+  line-height: 45px;
+  font-size:16px;
+  border:none;
+  padding:0;
+  margin-right:20px;
+  padding-left:20px;
+}
+.contact .email input:first-child{ 
+    width:467px;
+}
+.contact .question{
+    font-size:16px;
+    color:#113d5e;
+	margin:25px 0 0
+}
+.contact .q1{
+    font-size:16px;
+    margin-bottom:22px;
+}
+.contact .check_list .check_label{
+    font-size:16px;
+    color:#113d5e;
+    display: inline-block;
+    margin-bottom:20px;
+    width:165px;
+}
+
+.contact .check_list .check_label:nth-child(6){
+    width:335px;
+}
+.contact  .label_q{
+    margin-top: 30px;
+}
+.contact .opera{
+    margin-top:75px;
+}
+.contact .opera input{
+    padding: 10px 50px;
+    color:white;
+    background: #f5372d;
+    border:none
+}
+.contact .c_contain{
+    padding: 50px;
+    padding-bottom:135px;
+    background: #e9eef2;;
+}
+.contact .check_label span{
+    margin-right:10px;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+}
+.contact .check_label span i{
+    content:"";
+    display: inline-block;
+    position: absolute;
+    z-index:0;
+    background: white;
+    width: 20px;
+    height: 20px;
+    left:0;
+    top:0;
+}
+.contact .check_label input:checked + i{
+    content:"";
+    display: inline-block;
+    position: absolute;
+    z-index:0;
+    background: url('../images/checked.jpg') no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    left:0;
+    top:0;
+}
+.contact .check_label span input{
+    opacity: 0;
+    position: absolute;
+    top:0;
+    z-index:9;
+    width: 20px;
+    height: 20px;
+}
+.contact .label_info{
+    font-size:16px;
+    vertical-align: top;
+    width:80%;
+    display: inline-block;
+}
+
+.con_contain .container-fluid{
+    padding:0;
+}
+.contact .con_contain ul li{
+    padding:0;
+}
+@media screen and (min-width: 996px) and (max-width: 1600px) {
+    .contact .con_contain h1{
+        font-size:24px;
+        margin-bottom: 20px;
+    }
+    
+    .contact .label_info,.contact .question{
+        font-size:14px;
+    }
+    .contact .con_contain{
+        padding: 80px 12%;
+        text-align: left;
+        color:#113d5e;
+        padding-bottom:10px;
+        background: #f5f8fa;
+    }
+    .contact .c_contain ul li{
+        width: 48%;
+        display: inline-block;
+    }
+    .contact .con_contain ul li{
+        margin-bottom: 20px;
+        display: inline-block;
+        font-size: 12px;
+    }
+    .contact .con_contain ul li h3{
+        font-size: 12px;
+    }
+    .contact .con_contain ul li h2{
+        font-size: 20px;
+    }
+    .contact .check_list .check_label:nth-child(6){
+        width:auto;
+    }
+    .contact .con_online {
+        padding: 20px 12%;
+        background: #f5f8fa;
+        padding-bottom:80px;
+    
+    }
+    .contact .con_online h1{
+            font-size:24px;
+        margin-bottom: 20px;
+    }
+    .contact .con_online .input_label{
+        margin-top: 15px;
+    }
+    .contact .con_online .input_label input{
+        line-height:  30px;
+    }
+    .contact .form_item select{
+        margin-right: 20px;
+        width:80px;
+    }
+    .contact .form_item input{
+        margin-right:20px;
+        width:200px;
+    }
+    .contact .form_item{
+        width:100%;
+        margin-top: 20px;
+    }
+    .contact .form_item select:focus{
+      outline:none
+    }
+    .contact .form_item select{
+      line-height:30px;
+      border-radius: 0;
+      padding-left:20px;
+      background: url("../images/arrow.png") no-repeat 95% center #fff;
+      padding-right: 14px;
+      appearance:none;
+      border:none;
+      -moz-appearance:none;   
+      -webkit-appearance:none;
+      width:80px;
+    }
+    .contact .form_item input{
+      line-height: 30px;
+      border:none;
+      padding:0;
+      margin-right:20px;
+      padding-left:20px;
+    }
+    .contact .question{
+        color:#113d5e;
+        margin:25px 0 10px;
+    }
+    .contact .check_list .check_label{
+        width:20%;
+        display: inline-block;;
+    }
+    .contact  .label_q{
+        margin-top: 30px;
+    }
+    .opera{
+        margin-top:75px;
+    }
+    .opera input{
+        padding: 10px 50px;
+        color:white;
+        background: #f5372d;
+    }
+    .contact .c_contain{
+        padding: 50px;
+        background: #e9eef2;;
+    }
+    .contact .check_label span{
+        width: 15px;
+        height: 15px;
+        vertical-align: middle;
+        display: inline-block;
+        position: relative;
+    }
+    .contact .check_label span i{
+        content:"";
+        display: inline-block;
+        position: absolute;
+        z-index:0;
+        background: white;
+        width: 15px;
+        height: 15px;
+        left:0;
+        top:0;
+    }
+    .contact .check_label input:checked + i{
+        content:"";
+        display: inline-block;
+        position: absolute;
+        z-index:0;
+        background: url('../images/checked.jpg') no-repeat;
+        background-size: cover;
+        width: 15px;
+        height: 15px;
+        left:0;
+        top:0;
+    }
+    .contact .check_label span input{
+        opacity: 0;
+        position: absolute;
+        top:0;
+        z-index:9;
+        width: 15px;
+        height: 15px;
+    }
+    .contact .label_info{
+        vertical-align: top;
+        width:80%;
+        display: inline-block;
+    }
+    .contact .check_list .check_label{
+        width:25%;
+        font-size:14px;
+    }
+    .contact .form_item input,.contact .form_item select{
+        font-size:14px;
+    }
+    .contact .q_label input{
+        width:100%;
+    }
+}
+@media screen and (max-width:996px){
+    .contact .con_contain{
+        padding: 1.333333rem .32rem 0;
+        text-align: center
+    }
+    .contact .check_list .check_label:nth-child(6){
+        width:auto;
+    }
+    .contact .con_contain h1{
+        font-size: .533333rem;
+        margin-bottom: 1.2rem;
+    }
+    .contact .con_contain ul li h2{
+        font-size: .453333rem;
+    }
+    .contact .con_contain ul li h3{
+        font-size: .346667rem;
+        font-weight: bold;
+        margin: .4rem 0;
+    }
+    
+    .contact .con_contain ul li{
+        margin-bottom:  1.066667rem;
+    }
+    .contact .email input:first-child{
+        width: 8.266667rem;
+    }
+    .contact .c_contain{
+        padding:0 .32rem 0;
+        text-align: left;
+    }
+    .contact .form_item input{
+        margin-bottom: .333333rem;
+        width: 100%;
+        font-weight: bold;
+    }
+    .opera input{
+        padding:.266667rem 1.2rem
+    }
+    .contact .check_list .check_label{
+        margin-bottom: 0;
+    }
+    .opera input{
+        font-weight: initial;
+    }
+    .contact .con_online{
+        padding: 1.333333rem .32rem 1.333333rem;
+        background: #e9eef2;
+    }
+    .contact .form_item{
+        margin-top:0;
+    }
+    .contact .form_item select{
+        font-size:.346667rem;
+        font-weight: bold;
+        width: 3.866667rem;
+        margin-bottom: .333333rem;
+        line-height:  1rem;
+    }
+    
+    .contact .opera input{
+        padding:.266667rem 1.066667rem;
+        font-size:.426667rem;
+        font-weight: bold !important;
+    }
+    .contact .form_item input{
+        font-size:  .346667rem;
+        width: 6.266667rem;
+        line-height:  1rem;
+    }
+    .contact .form_item input:nth-child(3){
+        width: 8.266667rem;
+    }
+    .contact .form_item:nth-child(3) input{
+        width: 5.133333rem;
+    }
+    .contact .con_online h1{
+        text-align: center;
+        font-size: .533333rem;
+        margin-bottom: 1.133333rem;
+    }
+    .contact .check_list .check_label{
+        width: 100%;
+        margin-top: .4rem;
+    }
+    .contact .question{
+        font-weight: bold;
+        font-size: .346667rem;
+        margin: .533333rem 0  .2rem;
+    }
+    .contact .label_q{
+        margin-top: .333333rem;
+    }
+    .contact .q_label input{
+        width:100%;
+        padding-left: .266667rem;
+    }
+    .contact .label_info{
+        width:80%;
+    }
+    .opera{
+        margin-top: .8rem;
+        text-align: center;
+        font-size: .426667rem;
+    }
+    .opera button{
+        background: #f5372d;
+        padding: .2rem 1.066667rem;
+        font-size:.426667rem;
+        border:none;
+    }
+    .contact .check_list .check_label:last-child{
+        margin-left:0;
+    }
+    .contact .form_item{
+        margin-bottom: 0;
+    }
+    .contact .check_list .check_label{
+        font-size: .346667rem;
+        font-weight: bold;
+
+    }
+    label{
+        font-weight: bold;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1366px) {
+    .contact .email input:first-child{
+        width: 430px;
+    }
+ 
+}

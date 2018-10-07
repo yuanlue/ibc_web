@@ -1,0 +1,157 @@
+.review>div{
+    padding:0 18.75%
+}
+.review .list {
+    text-align: left;
+}
+.review .re_user{
+    vertical-align: middle;
+}
+.review .re_user img{
+    margin-right: 10px;
+    width:20px;
+}
+.review .list ul li .info{
+    font-weight: bold;
+}
+.review .list ul li .info span{
+    margin-left:20px;
+
+}
+.review .list ul li>p i {
+    color:#f5372d;
+    text-decoration: underline;
+}
+.review .list ul li a{
+    font-style: italic;
+    font-size:16px;
+    text-decoration: underline;
+    color:#f5372d
+}
+.review .list ul li{
+    padding:60px 30px;
+    border-bottom:1px solid #d7dee2;
+}
+.review .list ul li>p{
+    font-size:18px;
+    color:#113d5e;
+    margin-top:25px;
+    line-height: 30px;
+}
+.review .address,.review .time{
+    font-size:14px;
+    padding:0 20px;
+    font-weight: normal;
+    color:#788e9e;
+}
+.review .address{
+    border-left:1px solid #c1cad0;
+    border-right:1px solid #c1cad0;
+}
+.review .opera{
+    text-align: center;
+    color:#f5372d;
+    padding-bottom:140px;
+    margin-top:90px;
+}
+
+.review .opera a{
+    border:1px solid #f5372d;
+    padding:10px 30px;
+    color:#f5372d;
+    font-size:18px;
+    cursor: pointer;
+    background: transparent;
+    font-weight: bold;
+
+}
+.review .opera button:hover{
+    background: #f5372d;
+    color:white
+}
+.review .list ul li .info .re_start {
+    margin-left:0;
+}
+.review .list ul li .info .re_start span{
+    margin:0;
+    font-size:18px;
+    font-weight: bold;
+    vertical-align: middle;
+    margin-right:10px;
+}
+.review .opera a:hover{
+    background: #f5372d;
+    color:white;
+    text-decoration: none;
+}
+@media screen and (min-width: 996px) and (max-width: 1600px) {
+    .review .list ul li{
+        padding:30px 0;
+    }
+    .review .list ul li>p,.review .opera a{
+        font-size:16px;
+    }
+    .review>div{
+        padding:0 12%;
+    }
+}
+@media screen and (max-width:768px){
+    .review>div{
+        padding:0 .32rem;
+    }
+    .review .address, .review .time{
+        font-size: .186667rem;
+    }
+    .review .list ul li{
+        padding: .8rem .4rem;
+    }
+    .review .list ul li .info span{
+        margin-left: 0;
+    }
+    .review .list ul li .info .re_start{
+        display: block;
+        margin-bottom: .4rem;
+        font-size:  .426667rem;
+    }
+    .review .list ul li .info .address,.review .address, .review .time{
+        margin:0 .2rem;
+        font-size: .293333rem;
+        padding:0  .2333333rem}
+    .review .address, .review .time{
+        padding: 0;
+        font-weight: bold;
+    }
+    .review .list ul li>p i {
+        color:#f5372d;
+    }
+    .review .re_user img{
+        width: .266667rem;
+    }
+    .review .opera button{
+        font-size:  .426667rem;
+        padding: .2rem .666667rem;
+    }
+    .review .opera{
+        padding-bottom:1.466667rem;
+        margin-top: 1.333333rem;
+    }
+    .review .re_user img{
+        margin-right:  .133333rem;
+    }
+    .review .list ul li>p{
+        margin-top: .4rem;
+    }
+    .review .list ul li>p{
+        font-size: .346667rem;
+    }
+    .review .opera a{
+        padding:.2rem    .6rem;
+        font-size: .426667rem;
+    }
+    .review .re_user{
+        font-size: .32rem;
+    }
+    .review .list ul li>p{
+        line-height:  .533333rem;
+    }
+}

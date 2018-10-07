@@ -1,0 +1,125 @@
+body {
+    font-size:16px;
+    font-family: PingFangSC-Ultralight, sans-serif;
+  }
+ 
+  *:focus{
+      outline:none;
+  }
+p{
+    margin:0;
+}
+  @font-face{
+    font-family: 'geo';
+    src : url('../font/GEOMETRI.ttf');
+}
+label{
+    font-weight: normal;
+}
+h1{
+    font-family: "geo"
+}
+  h1,h2{
+      margin:0;
+      padding:0;
+  }
+  header{
+    color:#113d5e;
+    cursor: pointer;
+      font-size:16px;
+    padding: 0 18.75%;
+    line-height:50px;
+    background: #e9eef2;
+  }
+  header i{
+      font-style: normal;
+      color:#f5372d;
+      font-size:16px;
+  }
+  .hader_h1{
+      text-transform: uppercase;
+    font-size:36px;
+    margin-bottom: 45px;
+  }
+  ul{
+      padding:0;
+      margin:0;
+      list-style: none
+  }
+  .f16{
+      font-size:16px;
+  }
+  .f18{
+      font-size:18px;
+  }
+  .f20{
+      font-size: 20px;
+  }
+  .f24{
+      font-size:24px;
+  }
+  .f28{
+    font-size:28px;
+}
+.bold{
+    font-family: "geo";
+}
+.middle{
+    font-family: PingFangSC-Medium, sans-serif;
+}
+.thin{
+    font-family: PingFangSC-Ultralight, sans-serif;
+}
+.banner h1{
+    font-size: 80px;
+    color:white;
+    text-align: center;
+}
+@media screen and (min-width: 996px) and (max-width: 1600px) {
+    header{
+        padding:0 12%;
+    }
+    /* .hader_h1{
+        font-size: 24px;
+    }
+    header,header i{
+        font-size: 14px;
+    }
+    body {
+        font-size:12px;
+        font-family: PingFangSC-Regular, sans-serif;
+      }
+    h2{
+        font-size:18px;
+    }
+    .f16{
+        font-size:12px;
+    }
+   
+    .f20{
+        font-size: 18px;
+    }
+    .f24{
+        font-size:22px;
+    }
+    .f28{
+      font-size:26px;
+  } */
+  /* .f18{
+    font-size:14px;
+} */
+}
+@media screen and (max-width:996px){
+    .hader_h1{
+        font-size: .533333rem;
+        font-family: "geo";
+        margin-bottom: .666667rem;
+        line-height:  .8rem;
+    }
+    p{
+        font-size: .346667rem;
+        line-height:  .533333rem;
+        font-family: PingFangSC-Regular, sans-serif;
+
+    }
+}
