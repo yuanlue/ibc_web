@@ -78,6 +78,7 @@ header a:hover{
   width:auto;
   margin-bottom:0;
   line-height: 1;
+  white-space: nowrap;
   padding:10px 30px;
   background: #f5372d;
 }
