@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+
+	<title>IBC</title>
+	<stl:include file="/include/layout/head.html"></stl:include>
+
+</head>
+<body>
+	<stl:include file="/include/layout/header.html"></stl:include>
+	<stl:include file="/include/layout/nav.html"></stl:include>
+	
+	<stl:include file="/include/layout/banner.html"></stl:include>
+	
+	<stl:include file="/include/page/about/modal.html"></stl:include>
+	
+	<stl:include file="/include/layout/footer.html"></stl:include>
+</body>
+<script>
+		$(document).ready(function(){
+			$('.nav_bar .menu').click(function(){
+					$('.nav_list').slideToggle()
+			})
+		// 	$('.s_opera .left').click(function(){
+		// 	mySwiper.slideNext();
+		// })
+		// $('.s_opera .right').click(function(){
+		// 	mySwiper.slidePrev();
+		// })12
+	})
+
+
+</script>
+</html>
