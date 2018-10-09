@@ -56,32 +56,36 @@
 				<h1>Online</h1>
 				<form>
 					<div class="form_item">
-					<select>
-						<option value="Title">Title</option>
-					</select>
-					<input type="text" placeholder="First name" />
-				<input type="text" placeholder="Full Name">
+						<select name="Title" required>
+							<option value='' disabled selected>Title</option>
+							<option value="Mr">Mr</option>
+							<option value="Mrs">Mrs</option>
+							<option value="Miss">Miss</option>
+							<option value="Ms">Ms</option>
+						</select>
+					<input type="text" name="FirstName" placeholder="First name" />
+				<input type="text"name="LastName" placeholder="Last Name">
 				</div>
 				<div class="form_item email">
-					<input type="text" placeholder="Email" />
-					<input type="text" placeholder="Surname" />
+					<input type="text" name="Email" placeholder="Email" />
+					<input type="text" name="Telephone" placeholder="Telephone" />
 				</div>
 				<div class="form_item">
-					<input type="text" placeholder="County" />
-					<input type="text" placeholder="Town/City" />
+					<input type="text" name="Country" placeholder="County" />
+					<input type="text" name="City" placeholder="Town/City" />
 				</div>
 				<p class="question q1">Prefer service (multiple choice)</p>
 				<div class="check_list">
 					<div class="check_label">
 						<span>
-								<input type="checkbox">
+								<input name="service[]" type="checkbox" value="Group Series">
 								<i></i>
 						</span>
 						<label>Group Series</label>
 					</div>
 						<div class="check_label">
 						<span>
-								<input type="checkbox">
+								<input name="service[]" type="checkbox" value="Tailormade">
 								<i></i>
 	
 						</span>
@@ -89,7 +93,7 @@
 					</div>
 						<div class="check_label">
 						<span>
-								<input type="checkbox">
+								<input name="service[]" type="checkbox" value="Mice">
 								<i></i>
 	
 						</span>
@@ -97,7 +101,7 @@
 					</div>
 						<div class="check_label">
 						<span>
-								<input type="checkbox">
+								<input name="service[]" type="checkbox" value="Short Stays">
 								<i></i>
 	
 						</span>
@@ -105,7 +109,7 @@
 					</div>
 						<div class="check_label">
 						<span>
-								<input type="checkbox">
+								<input name="service[]" type="checkbox" value="Cruise Extensions">
 								<i></i>
 	
 						</span>
@@ -113,7 +117,7 @@
 					</div>
 						<div class="check_label">
 						<span>
-								<input type="checkbox">
+								<input name="service[]" type="checkbox" value="Hotels, Cars, Fligts, Trains, Cruises">
 								<i></i>
 	
 						</span>
@@ -121,7 +125,7 @@
 					</div>
 						<div class="check_label">
 						<span>
-								<input type="checkbox">
+								<input name="service[]" type="checkbox" value="Others">
 								<i></i>
 	
 						</span>
@@ -131,17 +135,17 @@
 				</div>
 				<p class="question">What prompted you to get in touch with us today?</p>
 				<div class="q_label form_item">
-					<input placeholder="E.g.recommended, Google, email, Sunday Times" type="text" placeholder="">
+					<input placeholder="E.g.recommended, Google, email, Sunday Times" type="text" name="Reason">
 				</div>
 				<p class="question">
 					Any other comments or requests?
 				</p>
 				<div class="q_label form_item">
-					<input type="text" placeholder="">
+					<input type="text" placeholder="" name="Request">
 				</div>
 				<div class="check_label label_q">
 					<span>
-							<input type="checkbox">
+							<input type="checkbox" name="subscription">
 							<i></i>
 					</span>
 					<div class="label_info">
