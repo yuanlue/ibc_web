@@ -9,6 +9,9 @@ const auth = async (ctx,next)=>{
   await next()
 }
 router.get('/',async (ctx, next) => {
+  // console.log(ctx.query);
+  const {id} = ctx.query;
+  console.log(id) 
     await ctx.render('index', {
         title: 'Hello Koa 2!',
         pagename:"home",
